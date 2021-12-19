@@ -1,0 +1,45 @@
+.pricing-buttons {
+   max-width: 330px;
+}
+.pricing-buttons {
+   padding: 2px;
+   border-radius: 55px;
+}
+.btn-monthly,
+.btn-yearly {
+   border-radius: 50px;
+   padding: 15px 40px;
+   margin-right: 2px;
+}
+
+@media only screen and (max-width: 392px) {
+   .pricing-buttons {
+      max-width: 250px;
+   }
+   .btn-monthly,
+   .btn-yearly {
+      padding: 15px 20px;
+   }
+}
+
+.price {
+   font-size: 45px;
+}
+
+.arrow-one {
+   color: #ada2aa;
+}
+
+.arrow-two {
+   color: #e0dadf;
+}
+
+.trial-button a {
+   color: #e9a6a6;
+   text-decoration: none;
+}
+
+.packages {
+   border-radius: 10px;
+   padding: 25px;
+}
