@@ -1,0 +1,32 @@
+/* header section */
+.header-section {
+   background: linear-gradient(90deg, #43243d 0%, #5e3255 100%);
+   padding: 10px 20px;
+   position: relative;
+}
+
+.header-section nav ul li {
+   padding: 0 8px;
+}
+
+.header-section nav ul li a {
+   color: rgb(255, 255, 255);
+}
+
+.header-section nav .btn-signup {
+   border-radius: 25px;
+   padding: 0 30px;
+}
+
+.navbar-light .navbar-toggler {
+   color: #e9a6a6 !important;
+}
+
+/* hide default dropdown icon */
+.dropdown-toggle::after {
+   display: none;
+}
+
+.header-section nav .dropdown-menu li a {
+   color: #5a3051 !important;
+}

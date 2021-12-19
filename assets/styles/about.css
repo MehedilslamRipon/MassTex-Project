@@ -1,0 +1,118 @@
+.h-75 {
+   height: 90vh !important;
+}
+
+.header-left h1 {
+   font-size: 60px;
+}
+
+.header-left p {
+   font-size: 22px;
+}
+
+.about-banner {
+   position: absolute;
+   bottom: 0;
+}
+
+@media only screen and (max-width: 768px) {
+   .h-75 {
+      height: 127vh !important;
+   }
+}
+
+/* our mission section */
+.mission-img {
+   background: url('./../images/mission_bg.png');
+   background-repeat: no-repeat;
+   background-position: center;
+   padding: 75px 0;
+}
+
+.mission-img img {
+   height: 80px;
+   width: 80px;
+}
+
+/* achievement section */
+.achieved-ico {
+   padding-top: 3px;
+   color: #414141;
+}
+
+@media only screen and (max-width: 650px) {
+   .achievement-left {
+      padding: 0 40px;
+      margin-bottom: 4;
+   }
+   .achievement-right {
+      margin-top: 40px;
+   }
+   .achieved-point,
+   .achievement-left {
+      padding: 0px 15px !important;
+   }
+}
+
+/* history section */
+.history {
+   clip-path: ellipse(160% 56% at 50% 44%);
+   padding-bottom: 55px;
+   background-image: url('./../images/wave_bg.jpg');
+   background-position: top;
+   background-repeat: no-repeat;
+   background-size: 100% auto;
+}
+
+@media only screen and (max-width: 768px) {
+   .history-text-wrapper {
+      margin-top: 35px;
+      padding: 0 15px;
+   }
+}
+
+/* mission simple */
+.mission-simple {
+   background: url('./../images/world_map.png');
+   padding: 118px 0px !important;
+   background-size: 100% 500px;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+.mission-simple-count h2 {
+   font-size: 3rem;
+}
+
+.mission-simple-count p {
+   font-size: 1.5rem;
+   font-weight: bold;
+}
+
+@media only screen and (max-width: 456px) {
+   .mission-simple-count h2 {
+      font-size: 2rem;
+   }
+   .mission-simple-count p {
+      font-size: 1rem;
+   }
+}
+
+.launched-details p {
+   font-size: 20px;
+   font-weight: bold;
+}
+
+@media only screen and (max-width: 767px) {
+   .history {
+      clip-path: ellipse(250% 56% at 50% 44%);
+      padding-bottom: 45px;
+   }
+}
+
+@media only screen and (max-width: 540px) {
+   .history {
+      clip-path: ellipse(300% 56% at 50% 44%);
+      padding-bottom: 35px;
+   }
+}

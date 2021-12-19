@@ -23,6 +23,15 @@
          crossorigin="anonymous"
       />
 
+      <!-- header -->
+      <link rel="stylesheet" href="./assets/styles/header.css" />
+
+      <!-- footer -->
+      <link rel="stylesheet" href="./assets/styles/footer.css" />
+
+      <!-- common styles -->
+      <link rel="stylesheet" href="./assets/styles/common.css" />
+
       <!-- Custom CSS -->
       <link rel="stylesheet" href="./assets/styles/about.css" />
    </head>
@@ -30,7 +39,7 @@
       <!-- header -->
       <header class="header-section">
          <!-- navbar -->
-         <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+         <nav class="fs-5 navbar navbar-expand-lg navbar-light bg-transparent">
             <div class="container-fluid">
                <a class="navbar-brand" href="#">
                   <img src="./assets/images/MassTex.png" alt="logo" />
@@ -52,14 +61,17 @@
                >
                   <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"
+                        <a
+                           class="text-white nav-link active"
+                           aria-current="page"
+                           href="#"
                            >Pricing</a
                         >
                      </li>
 
                      <li class="nav-item dropdown">
                         <a
-                           class="nav-link dropdown-toggle"
+                           class="text-white nav-link dropdown-toggle"
                            href="#"
                            id="navbarDropdown"
                            role="button"
@@ -67,31 +79,40 @@
                            aria-expanded="false"
                         >
                            Learn
+                           <span
+                              ><img
+                                 src="./assets/images/dropdown.png"
+                                 alt="dropdown-icon"
+                           /></span>
                         </a>
                         <ul
                            class="dropdown-menu"
                            aria-labelledby="navbarDropdown"
                         >
                            <li><a class="dropdown-item" href="#">Blog</a></li>
+                           <li><hr class="dropdown-divider" /></li>
+
                            <li>
                               <a class="dropdown-item" href="#">Directory</a>
                            </li>
+                           <li><hr class="dropdown-divider" /></li>
+
                            <li>
                               <a class="dropdown-item" href="#">Fabrics</a>
                            </li>
                         </ul>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="#"
+                        <a class="text-white nav-link" href="#"
                            >Browse Service Providers</a
                         >
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
+                        <a class="text-white nav-link" href="#">About Us</a>
                      </li>
                      <li class="nav-item dropdown">
                         <a
-                           class="nav-link dropdown-toggle"
+                           class="text-white nav-link dropdown-toggle"
                            href="#"
                            id="navbarDropdown"
                            role="button"
@@ -99,6 +120,11 @@
                            aria-expanded="false"
                         >
                            How It Works
+                           <span
+                              ><img
+                                 src="./assets/images/dropdown.png"
+                                 alt="dropdown-icon"
+                           /></span>
                         </a>
                         <ul
                            class="dropdown-menu"
@@ -117,8 +143,22 @@
                      </li>
                   </ul>
                   <form class="d-flex">
-                     <button class="btn btn-login" type="submit">Login</button>
-                     <button class="btn btn-signup" type="submit">
+                     <button
+                        class="fs-5 btn btn-login text-white"
+                        type="submit"
+                     >
+                        Login
+                     </button>
+                     <button
+                        class="
+                           btn
+                           fs-5
+                           btn-signup
+                           bg-E9A6A6
+                           text-5A3051 text-white
+                        "
+                        type="submit"
+                     >
                         Signup
                      </button>
                   </form>
@@ -131,12 +171,14 @@
             <div class="row align-items-center justify-content-between h-75">
                <!-- header slogan -->
                <div class="col-10 col-md-6 header-left mx-auto">
-                  <h1>Lorem ipsum dolor sit</h1>
-                  <p>
+                  <h1 class="text-white">Lorem ipsum dolor sit</h1>
+                  <p class="text-E9A6A6 fs-4">
                      Lorem ipsum dolor sit amet, <br />
                      consectetur adipiscing.
                   </p>
-                  <button class="btn">Start now</button>
+                  <button class="btn btn-common text-512B49 bg-white">
+                     Start now
+                  </button>
                   <br />
                </div>
                <!-- header form -->
@@ -161,7 +203,7 @@
             </div>
 
             <div class="mission-items">
-               <div class="row">
+               <div class="row fs-5">
                   <div
                      class="
                         col-10 col-sm-6 col-md-3
@@ -178,7 +220,7 @@
                            alt="our-mission"
                         />
                      </div>
-                     <p>
+                     <p class="text-base">
                         Empower the fashion community to innovate ans prosper
                      </p>
                   </div>
@@ -198,7 +240,7 @@
                            alt="our-mission"
                         />
                      </div>
-                     <p>
+                     <p class="text-base">
                         Create a place where Brands can turn ideas into products
                      </p>
                   </div>
@@ -218,7 +260,9 @@
                            alt="our-mission"
                         />
                      </div>
-                     <p>Provide a one stop shop for all services</p>
+                     <p class="text-base">
+                        Provide a one stop shop for all services
+                     </p>
                   </div>
 
                   <div
@@ -236,7 +280,9 @@
                            alt="our-mission"
                         />
                      </div>
-                     <p>Make the clothing manufacturing experience seamless</p>
+                     <p class="text-base">
+                        Make the clothing manufacturing experience seamless
+                     </p>
                   </div>
                </div>
             </div>
@@ -248,7 +294,7 @@
          <div class="container">
             <div class="achievement-title text-center col-9 mx-auto">
                <h1>What We Already Achieved</h1>
-               <p>
+               <p class="fs-5 text-5A3051">
                   We created space where anyone without connections in the
                   industry can find the best matching manufacturing partners
                </p>
@@ -263,11 +309,11 @@
                      />
                   </div>
                   <div class="achievement-right col-12 col-md-6">
-                     <div class="achieved-point d-flex px-5 mt-3">
+                     <div class="achieved-point fs-5 d-flex px-5 mt-3">
                         <div class="achieved-ico">
                            <i class="fas fa-badge-check"></i>
                         </div>
-                        <div class="achieved-description mx-2">
+                        <div class="achieved-description text-5A3051 mx-2">
                            <p>
                               Increased visibility of new brands and emerging
                               designers
@@ -275,11 +321,11 @@
                         </div>
                      </div>
 
-                     <div class="achieved-point d-flex px-5 mt-3">
+                     <div class="achieved-point fs-5 d-flex px-5 mt-3">
                         <div class="achieved-ico">
                            <i class="fas fa-badge-check"></i>
                         </div>
-                        <div class="achieved-description mx-2">
+                        <div class="achieved-description text-5A3051 mx-2">
                            <p>
                               We opened the doors for service providers and
                               factories to get new customers
@@ -287,11 +333,11 @@
                         </div>
                      </div>
 
-                     <div class="achieved-point d-flex px-5 mt-3">
+                     <div class="achieved-point fs-5 d-flex px-5 mt-3">
                         <div class="achieved-ico">
                            <i class="fas fa-badge-check"></i>
                         </div>
-                        <div class="achieved-description mx-2">
+                        <div class="achieved-description text-5A3051 mx-2">
                            <p>
                               Brought all services in one place at a one click
                               of a button
@@ -299,11 +345,11 @@
                         </div>
                      </div>
 
-                     <div class="achieved-point d-flex px-5 mt-3">
+                     <div class="achieved-point fs-5 d-flex px-5 mt-3">
                         <div class="achieved-ico">
                            <i class="fas fa-badge-check"></i>
                         </div>
-                        <div class="achieved-description mx-2">
+                        <div class="achieved-description text-5A3051 mx-2">
                            <p>
                               Implemented easy to use communication and project
                               management tools
@@ -313,7 +359,10 @@
                   </div>
                </div>
                <div class="achieve-button text-center mt-5">
-                  <button type="button" class="achieve-btn text-center">
+                  <button
+                     type="button"
+                     class="btn btn-common text-white bg-5A3051 text-center"
+                  >
                      Try For Free
                   </button>
                </div>
@@ -322,11 +371,11 @@
       </section>
 
       <!-- history section -->
-      <section class="history mt-5 pt-5">
+      <section class="history mt-5 pt-5 bg-EEE3EB">
          <div class="container">
             <div class="history-title col-9 text-center mx-auto">
                <h1>Our History</h1>
-               <p>
+               <p class="text-5A3051 fs-5">
                   When young ambitious and technically savvy designers said
                   there was a problem in the garment problem in the garment
                   production industry we belived them
@@ -462,7 +511,7 @@
                      <div
                         class="
                            mission-simple-title
-                           text-center
+                           text-5A3051 text-center
                            col-10
                            mx-auto
                            mb-5
@@ -477,21 +526,21 @@
                      </div>
 
                      <div class="row text-center">
-                        <div class="mission-simple-count col-4">
+                        <div class="mission-simple-count text-5A3051 col-4">
                            <h2>324+</h2>
                            <p>
                               Active <br />
                               brands
                            </p>
                         </div>
-                        <div class="mission-simple-count col-4">
+                        <div class="mission-simple-count text-5A3051 col-4">
                            <h2>1000+</h2>
                            <p>
                               Clothing <br />
                               manufacturer
                            </p>
                         </div>
-                        <div class="mission-simple-count col-4">
+                        <div class="mission-simple-count text-5A3051 col-4">
                            <h2>352+</h2>
                            <p>
                               orders recently <br />
@@ -504,12 +553,25 @@
 
                <!-- start now btn -->
                <div class="achieve-button text-center mt-5">
-                  <button type="button" class="achieve-btn text-center">
+                  <button
+                     type="button"
+                     class="btn btn-common text-white bg-5A3051 text-center"
+                  >
                      Start Now
                   </button>
                </div>
 
-               <p class="history-pera text-center my-5 py-4 col-10 mx-auto">
+               <p
+                  class="
+                     history-pera
+                     fs-5
+                     text-5A3051 text-center
+                     my-5
+                     py-4
+                     col-10
+                     mx-auto
+                  "
+               >
                   When MassTex strengthened its presence in London attracting
                   bigger clients, we developed a new vision that goes hand in
                   hand with the latest technological trends – creating an online
@@ -521,7 +583,7 @@
                   that suits their capabilities
                </p>
 
-               <div class="launched mb-5">
+               <div class="launched text-5A3051 mb-5">
                   <h3 class="mb-5 fw-bold px-3">
                      In 2017, we proudly launched an online platform MassTex.
                   </h3>
@@ -582,7 +644,7 @@
                   <div
                      class="col-10 col-md-8 mx-auto text-center text-md-start"
                   >
-                     <h3>
+                     <h3 class="text-5A3051">
                         We are looking forward to turning your vision into a
                         product and helping your business grow.
                      </h3>
@@ -596,7 +658,15 @@
                            mx-auto
                         "
                      >
-                        <button type="button" class="achieve-btn mt-4 mt-md-2">
+                        <button
+                           type="button"
+                           class="
+                              btn-common btn
+                              text-white
+                              bg-5A3051
+                              mt-4 mt-md-2
+                           "
+                        >
                            Start Now
                         </button>
                      </div>
@@ -612,7 +682,7 @@
       <!-- join us section -->
       <section class="join-us">
          <div class="container">
-            <div class="row mt-5">
+            <div class="row">
                <!-- single join item -->
                <div class="col-md-3 text-center p-5">
                   <img
@@ -656,7 +726,10 @@
                </div>
             </div>
             <div class="achieve-button text-center mt-4">
-               <button type="button" class="achieve-btn text-center">
+               <button
+                  type="button"
+                  class="btn btn-common text-white bg-5A3051 text-center"
+               >
                   Join Now
                </button>
             </div>
@@ -667,21 +740,129 @@
       <section class="footer-top mt-5">
          <div class="container">
             <div class="footer-top-title px-3">
-               <h4 class="text-center fw-bold text-uppercase col-md-6 mx-auto">
+               <h4
+                  class="
+                     text-center
+                     fw-bold
+                     text-5A3051 text-uppercase
+                     col-md-6
+                     mx-auto
+                  "
+               >
                   Concentrate on what’s important. Leave the rest to us. Enter
                   your email
                </h4>
             </div>
 
             <!-- newsletter -->
-            <div class="newsletter">
-               <div class="input-group mb-3">
-                  <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
-                  <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
-                </div>
+            <div class="newsletter col-sm-8 col-md-6 mx-auto mt-5">
+               <div class="newsletter-img">
+                  <img
+                     class="img-fluid"
+                     src="./assets/images/newsletter.png"
+                     alt="newsletter"
+                  />
+               </div>
+               <div class="input-group">
+                  <input
+                     type="text"
+                     class="form-control"
+                     placeholder="Enter Your Email Address"
+                     aria-label="Recipient's username"
+                     aria-describedby="button-addon2"
+                  />
+                  <button
+                     class="btn bg-5A3051 text-white"
+                     type="button"
+                     id="button-addon2"
+                  >
+                     Get Started
+                  </button>
+               </div>
+            </div>
+
+            <!-- menu -->
+            <div class="row menu-list mt-5 mx-2">
+               <div class="col-4 col-md-2 mx-md-auto">
+                  <h5 class="text-uppercase fw-bold mb-4">Menu</h5>
+                  <p><a href="#">Home</a></p>
+                  <p><a href="#">Manufacturers</a></p>
+                  <p><a href="#">Support</a></p>
+                  <p><a href="#">Learn</a></p>
+               </div>
+               <div class="col-4 col-md-2 mx-md-auto">
+                  <h5 class="text-uppercase fw-bold mb-4">Company</h5>
+                  <p><a href="#">About</a></p>
+                  <p><a href="#">Contact</a></p>
+                  <p><a href="#">FAQ</a></p>
+                  <p><a href="#">Press</a></p>
+               </div>
+               <div class="col-4 col-md-2 mx-md-auto">
+                  <h5 class="text-uppercase fw-bold mb-4">Available On</h5>
+                  <p>
+                     <a href="#">
+                        <img
+                           class="img-fluid"
+                           src="./assets/images/android.png"
+                           alt="androind_app"
+                        />
+                     </a>
+                  </p>
+                  <p class="text-start">
+                     <a href="#">
+                        <img
+                           class="img-fluid"
+                           src="./assets/images/ios.png"
+                           alt="ios_app"
+                        />
+                     </a>
+                  </p>
+               </div>
             </div>
          </div>
       </section>
+
+      <!-- footer -->
+      <footer class="footer bg-EDE3EB pt-5">
+         <div class="container">
+            <div class="terms text-center">
+               <span>
+                  <a class="text-5A3051" href="#"> Terms & Conditions | </a>
+               </span>
+
+               <span>
+                  <a class="text-5A3051" href="#"> Privacy Policy </a>
+               </span>
+            </div>
+
+            <!-- social icons -->
+            <div class="social text-center">
+               <span>
+                  <a class="text-5A3051" href=""
+                     ><i class="fab fa-pinterest"></i
+                  ></a>
+               </span>
+               <span>
+                  <a class="text-5A3051" href=""
+                     ><i class="fab fa-facebook"></i
+                  ></a>
+               </span>
+               <span class="twitter">
+                  <a class="text-5A3051" href=""
+                     ><i class="fab fa-twitter"></i
+                  ></a>
+               </span>
+               <span class="google">
+                  <a class="text-5A3051" href=""
+                     ><i class="fab fa-google"></i
+                  ></a>
+               </span>
+            </div>
+         </div>
+         <div class="footer-credit text-5A3051 text-center text-md-end">
+            <span>© 2021 MassTex. All Rights Registered</span>
+         </div>
+      </footer>
 
       <!-- scripts -->
       <script
