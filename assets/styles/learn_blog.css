@@ -1,0 +1,20 @@
+/* header */
+.header-title {
+   min-height: 88vh;
+}
+
+/* all post */
+.post-underline {
+   height: 1px;
+   min-width: 88%;
+}
+
+.single-post {
+   box-shadow: ;
+}
+
+@media only screen and (max-width: 576px) {
+   .post-img img {
+      width: 100%;
+   }
+}

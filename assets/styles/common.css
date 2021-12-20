@@ -25,6 +25,12 @@ body {
 .text-1F1D36 {
    color: #1f1d36;
 }
+.text-4AD093 {
+   color: #4AD093;
+}
+.text-5A5A5A{
+   color: #5A5A5A;
+}
 .text-638289 {
    color: #638289;
 }
@@ -89,6 +95,9 @@ body {
 /* background color scheme */
 .bg-1F1D36 {
    background: #1f1d36;
+}
+.bg-5A5A5A {
+   background: #5A5A5A;
 }
 .bg-FFCE95 {
    background: #ffce95;
