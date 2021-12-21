@@ -1,0 +1,42 @@
+/* header */
+.pricing-buttons {
+   max-width: 408px !important;
+}
+
+.pricing-buttons {
+   padding: 2px;
+   border-radius: 55px;
+}
+
+.btn-brands,
+.btn-manufacturers {
+   border-radius: 50px;
+   padding: 15px 40px;
+   margin-right: 2px;
+}
+
+@media only screen and (max-width: 392px) {
+   .pricing-buttons {
+      max-width: 250px;
+   }
+   .btn-brands,
+   .btn-manufacturers {
+      padding: 15px 20px;
+   }
+}
+
+.pricing-monthly {
+   min-height: 80vh;
+}
+
+@media only screen and (max-width: 470px) {
+   .pricing-buttons {
+      max-width: 250px !important;
+   }
+}
+
+
+/* history */
+.history {
+   background-image: none !important;
+}

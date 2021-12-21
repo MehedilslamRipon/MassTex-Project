@@ -2,7 +2,7 @@
 .header-section {
    background: linear-gradient(90deg, #43243d 0%, #5e3255 100%);
    padding: 10px 20px;
-   position: relative;
+   /* position: relative; */
 }
 
 .header-section nav ul li {

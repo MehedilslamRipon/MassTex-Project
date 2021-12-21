@@ -1,0 +1,104 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   /* background: linear-gradient(90deg, #43243d 0%, #5e3255 100%); */
+   background-color: #532c4b;
+}
+
+.text-DB513E {
+   color: #db513e;
+}
+
+/* custom border color */
+.border-864879 {
+   border-color: #864879 !important;
+}
+
+.border-DB513E {
+   border-color: #db513e !important;
+}
+
+/* border redious */
+.rediout-xl {
+   border-radius: 22px;
+}
+
+input::placeholder {
+   font-size: 24px;
+}
+
+.form-check .form-check-input {
+   float: none;
+}
+
+.form-check-input:focus {
+   box-shadow: none;
+}
+
+.form-check-input:checked {
+   background-color: #864879;
+   border-color: #864879;
+}
+
+.form-control {
+   text-align: center;
+   color: #a6a6a6;
+}
+
+.form-control:focus {
+   box-shadow: none;
+   color: #a6a6a6;
+   font-size: 24px;
+}
+
+.login-with::before {
+   content: '';
+   position: absolute;
+   border-style: solid;
+   border-color: rgba(109, 109, 109, 40%);
+   border-width: 0 60px 1px;
+   top: 50%;
+   right: 58%;
+}
+.login-with::after {
+   content: '';
+   position: absolute;
+   border-style: solid;
+   border-color: rgba(109, 109, 109, 40%);
+   border-width: 0 60px 1px;
+   top: 50%;
+   left: 58%;
+}
+
+.footer-top {
+   background-image: url('./../images/wave_bg.png');
+   background-color: #532c4b;
+}
+
+@media (max-width: 575.98px) {
+   .login-with::before {
+      border-width: 0 55px 1px;
+      right: 75%;
+   }
+   .login-with::after {
+      border-width: 0 55px 1px;
+      left: 75%;
+   }
+}
+@media (min-width: 576px) and (max-width: 991.98px) {
+   .login-with::before {
+      right: 65%;
+   }
+   .login-with::after {
+      left: 65%;
+   }
+}

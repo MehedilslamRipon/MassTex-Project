@@ -25,14 +25,20 @@ body {
 .text-1F1D36 {
    color: #1f1d36;
 }
+.text-C4CBD3 {
+   color: #c4cbd3;
+}
+.text-5B3152 {
+   color: #5b3152;
+}
 .text-3E3E3E {
-   color: #3E3E3E;
+   color: #3e3e3e;
 }
 .text-4AD093 {
-   color: #4AD093;
+   color: #4ad093;
 }
-.text-5A5A5A{
-   color: #5A5A5A;
+.text-5A5A5A {
+   color: #5a5a5a;
 }
 .text-638289 {
    color: #638289;
@@ -99,8 +105,11 @@ body {
 .bg-1F1D36 {
    background: #1f1d36;
 }
+.bg-414141 {
+   background: #414141;
+}
 .bg-5A5A5A {
-   background: #5A5A5A;
+   background: #5a5a5a;
 }
 .bg-FFCE95 {
    background: #ffce95;
@@ -162,6 +171,7 @@ body {
 .bg-FF9F43 {
    background: #ff9f43;
 }
+
 .bg-FECA57 {
    background: #feca57;
 }
