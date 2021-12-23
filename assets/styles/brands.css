@@ -35,8 +35,26 @@
    }
 }
 
-
 /* history */
 .history {
    background-image: none !important;
+}
+
+.brands-main {
+   background-image: url(./../images/big_bg.png);
+   background-repeat: no-repeat;
+   background-position: bottom;
+   background-size: 100% 80%;
+   padding-bottom: 150px;
+}
+
+@media only screen and (max-width: 768px) {
+   .brands-main {
+      background-size: 200% 80%;
+   }
+}
+
+/* brand divider */
+.brands-divider {
+   height: 2px;
 }
