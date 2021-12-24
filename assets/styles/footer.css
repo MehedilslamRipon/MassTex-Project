@@ -122,3 +122,10 @@
 .footer-credit {
    padding: 15px 25px;
 }
+
+.footer-dash-top {
+   background-position: top;
+   background-size: 100%;
+   background-color: #eee3eb;
+   background-repeat: no-repeat;
+}
