@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+      <title>MassTex</title>
+
+      <!-- Bootstrap CDN CSS -->
+      <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+         crossorigin="anonymous"
+      />
+
+      <!-- Font awesome Pro v5.10.0 CDN -->
+      <link
+         rel="stylesheet"
+         href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+         crossorigin="anonymous"
+      />
+
+      <!-- header -->
+      <!-- <link rel="stylesheet" href="./assets/styles/header.css" /> -->
+
+      <!-- footer -->
+      <!-- <link rel="stylesheet" href="./assets/styles/footer.css" /> -->
+
+      <!-- common styles -->
+      <!-- <link rel="stylesheet" href="./assets/styles/common.css" /> -->
+
+      <!-- Custom CSS -->
+      <!-- <link rel="stylesheet" href="./assets/styles/about.css" /> -->
+      <link rel="stylesheet" href="./assets/styles/style.css" />
+   </head>
+   <body>
+      <!-- header -->
+      <header class="header-section">
+         <!-- navbar -->
+         <nav class="fs-5 navbar navbar-expand-lg navbar-light bg-transparent">
+            <div class="container-fluid">
+               <a class="navbar-brand" href="#">
+                  <img src="./assets/images/MassTex.png" alt="logo" />
+               </a>
+               <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+               >
+                  <span class="navbar-toggler-icon"></span>
+               </button>
+               <div
+                  class="collapse navbar-collapse"
+                  id="navbarSupportedContent"
+               >
+                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                     <li class="nav-item">
+                        <a
+                           class="text-white nav-link active"
+                           aria-current="page"
+                           href="./pricing_monthly.html"
+                           >Pricing</a
+                        >
+                     </li>
+
+                     <li class="nav-item dropdown">
+                        <a
+                           class="text-white nav-link dropdown-toggle"
+                           href="#"
+                           id="navbarDropdown"
+                           role="button"
+                           data-bs-toggle="dropdown"
+                           aria-expanded="false"
+                        >
+                           Learn
+                           <span
+                              ><img
+                                 src="./assets/images/dropdown.png"
+                                 alt="dropdown-icon"
+                           /></span>
+                        </a>
+                        <ul
+                           class="dropdown-menu"
+                           aria-labelledby="navbarDropdown"
+                        >
+                           <li><a class="dropdown-item" href="#">Blog</a></li>
+                           <li><hr class="dropdown-divider" /></li>
+
+                           <li>
+                              <a class="dropdown-item" href="#">Directory</a>
+                           </li>
+                           <li><hr class="dropdown-divider" /></li>
+
+                           <li>
+                              <a class="dropdown-item" href="#">Fabrics</a>
+                           </li>
+                        </ul>
+                     </li>
+                     <li class="nav-item">
+                        <a class="text-white nav-link" href="#"
+                           >Browse Service Providers</a
+                        >
+                     </li>
+                     <li class="nav-item">
+                        <a class="text-white nav-link" href="./about.html"
+                           >About Us</a
+                        >
+                     </li>
+                     <li class="nav-item dropdown">
+                        <a
+                           class="text-white nav-link dropdown-toggle"
+                           href="#"
+                           id="navbarDropdown"
+                           role="button"
+                           data-bs-toggle="dropdown"
+                           aria-expanded="false"
+                        >
+                           How It Works
+                           <span
+                              ><img
+                                 src="./assets/images/dropdown.png"
+                                 alt="dropdown-icon"
+                           /></span>
+                        </a>
+                        <ul
+                           class="dropdown-menu"
+                           aria-labelledby="navbarDropdown"
+                        >
+                           <li>
+                              <a class="dropdown-item" href="./index.html"
+                                 >For Brands</a
+                              >
+                           </li>
+                           <li><hr class="dropdown-divider" /></li>
+                           <li>
+                              <a class="dropdown-item" href="#"
+                                 >For Manufactures</a
+                              >
+                           </li>
+                        </ul>
+                     </li>
+                  </ul>
+                  <form class="d-flex">
+                     <button
+                        class="fs-5 btn btn-login text-white"
+                        type="submit"
+                     >
+                        Login
+                     </button>
+                     <button
+                        class="
+                           btn
+                           fs-5
+                           btn-signup
+                           bg-E9A6A6
+                           text-5A3051 text-white
+                        "
+                        type="submit"
+                     >
+                        Signup
+                     </button>
+                  </form>
+               </div>
+            </div>
+         </nav>
+
+         <!-- header items -->
+         <div class="container header-items">
+            <div class="row align-items-center justify-content-between h-75">
+               <!-- header slogan -->
+               <div class="col-10 col-md-6 header-left mx-auto">
+                  <h1 class="text-white">Lorem ipsum dolor sit</h1>
+                  <p class="text-E9A6A6 fs-4 py-4">
+                     Lorem ipsum dolor sit amet, <br />
+                     consectetur adipiscing.
+                  </p>
+                  <button class="btn btn-common text-512B49 bg-white">
+                     Start now
+                  </button>
+                  <br />
+               </div>
+               <!-- header form -->
+               <div class="col-10 col-md-6">
+                  <div class="about-banner">
+                     <img
+                        class="img-fluid"
+                        src="./assets/images/about_banner.png"
+                        alt="about-banner"
+                     />
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+
+      <!-- our mission section -->
+      <section class="out-mission py-5 mt-4">
+         <div class="container">
+            <div class="mission-title pb-3 text-center">
+               <h1>Our Mission</h1>
+            </div>
+
+            <div class="mission-items">
+               <div class="row fs-5">
+                  <div
+                     class="
+                        col-10 col-sm-6 col-md-3
+                        single-mission-item
+                        text-center
+                        mx-auto
+                        my-3
+                     "
+                  >
+                     <div class="mission-img">
+                        <img
+                           class="img-fluid"
+                           src="./assets/images/mission_img_1.png"
+                           alt="our-mission"
+                        />
+                     </div>
+                     <p class="text-base">
+                        Empower the fashion community to innovate ans prosper
+                     </p>
+                  </div>
+
+                  <div
+                     class="
+                        col-sm-6 col-md-3
+                        single-mission-item
+                        text-center
+                        my-3
+                     "
+                  >
+                     <div class="mission-img">
+                        <img
+                           class="img-fluid"
+                           src="./assets/images/mission_img-2.png"
+                           alt="our-mission"
+                        />
+                     </div>
+                     <p class="text-base">
+                        Create a place where Brands can turn ideas into products
+                     </p>
+                  </div>
+
+                  <div
+                     class="
+                        col-sm-6 col-md-3
+                        single-mission-item
+                        text-center
+                        my-3
+                     "
+                  >
+                     <div class="mission-img">
+                        <img
+                           class="img-fluid"
+                           src="./assets/images/mission_img_3.png"
+                           alt="our-mission"
+                        />
+                     </div>
+                     <p class="text-base">
+                        Provide a one stop shop for all services
+                     </p>
+                  </div>
+
+                  <div
+                     class="
+                        col-sm-6 col-md-3
+                        single-mission-item
+                        text-center
+                        my-3
+                     "
+                  >
+                     <div class="mission-img">
+                        <img
+                           class="img-fluid"
+                           src="./assets/images/mission_img_4.png"
+                           alt="our-mission"
+                        />
+                     </div>
+                     <p class="text-base">
+                        Make the clothing manufacturing experience seamless
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- achievement section -->
+      <section class="achievement mt-4">
+         <div class="container">
+            <div class="achievement-title text-center col-9 mx-auto">
+               <h1>What We Already Achieved</h1>
+               <p class="fs-5 text-5A3051">
+                  We created space where anyone without connections in the
+                  industry can find the best matching manufacturing partners
+               </p>
+            </div>
+            <div class="achievement-content mt-5 pt-3">
+               <div class="row mx-auto">
+                  <div class="achievement-left col-12 col-md-6">
+                     <img
+                        class="img-fluid"
+                        src="./assets/images/achived.png"
+                        alt="achieved"
+                     />
+                  </div>
+                  <div class="achievement-right col-12 col-md-6">
+                     <div class="achieved-point fs-5 d-flex px-5 mt-3">
+                        <div class="achieved-ico">
+                           <i class="fas fa-badge-check"></i>
+                        </div>
+                        <div class="achieved-description text-5A3051 mx-2">
+                           <p>
+                              Increased visibility of new brands and emerging
+                              designers
+                           </p>
+                        </div>
+                     </div>
+
+                     <div class="achieved-point fs-5 d-flex px-5 mt-3">
+                        <div class="achieved-ico">
+                           <i class="fas fa-badge-check"></i>
+                        </div>
+                        <div class="achieved-description text-5A3051 mx-2">
+                           <p>
+                              We opened the doors for service providers and
+                              factories to get new customers
+                           </p>
+                        </div>
+                     </div>
+
+                     <div class="achieved-point fs-5 d-flex px-5 mt-3">
+                        <div class="achieved-ico">
+                           <i class="fas fa-badge-check"></i>
+                        </div>
+                        <div class="achieved-description text-5A3051 mx-2">
+                           <p>
+                              Brought all services in one place at a one click
+                              of a button
+                           </p>
+                        </div>
+                     </div>
+
+                     <div class="achieved-point fs-5 d-flex px-5 mt-3">
+                        <div class="achieved-ico">
+                           <i class="fas fa-badge-check"></i>
+                        </div>
+                        <div class="achieved-description text-5A3051 mx-2">
+                           <p>
+                              Implemented easy to use communication and project
+                              management tools
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="achieve-button text-center mt-5">
+                  <button
+                     type="button"
+                     class="btn btn-common text-white bg-5A3051 text-center"
+                  >
+                     Try For Free
+                  </button>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- history section -->
+      <section class="history mt-5 pt-5 bg-EEE3EB">
+         <div class="container">
+            <div class="history-title col-9 text-center mx-auto">
+               <h1>Our History</h1>
+               <p class="text-5A3051 fs-5">
+                  When young ambitious and technically savvy designers said
+                  there was a problem in the garment problem in the garment
+                  production industry we belived them
+               </p>
+            </div>
+
+            <!-- history items -->
+            <div class="history-items mt-5 pt-5">
+               <!-- single history item -->
+               <div class="row mx-auto">
+                  <div class="history-img col-12 col-md-5">
+                     <img
+                        class="img-fluid"
+                        src="./assets/images/history_img_1.png"
+                        alt="history"
+                     />
+                  </div>
+                  <div
+                     class="
+                        history-text
+                        col-12 col-md-7
+                        d-flex
+                        align-items-center
+                     "
+                  >
+                     <div class="history-text-wrapper">
+                        <h3>
+                           Lorem ipsum dolor sit amet, consectetur adipiscing
+                           elit. Posuere mattis pulvinar quis quam velarcu
+                           sapien, tristique nunc
+                        </h3>
+                        <p class="mt-4">
+                           Consequat nisl senectus malesuada sociis sagittis
+                           venenatis velit. Et augue lobortis fusce orci, vitae
+                           vestibulum eget volutpat. Egestas dolor in duis
+                           consectetur ut et mattis blandit. Morbi turpis ornare
+                           nec at quis cras malesuada. <br />
+                           Sed lectus malesuada tellus scelerisque. Donec
+                           adipiscing consequat, nec placerat vestibulum tempor
+                           semper massa viverra. Varius nunc, ut sollicitudin
+                           urna, velit mattis pharetra augue mattis. Volutpat
+                           nec dolor vulputate integer. Proin facilisis mauris
+                           congue duis a dis.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+
+               <!-- single history item -->
+               <div class="row mx-auto mt-5">
+                  <div
+                     class="
+                        history-text
+                        col-12 col-md-7
+                        d-flex
+                        align-items-center
+                     "
+                  >
+                     <div class="history-text-wrapper">
+                        <h3>
+                           Lorem ipsum dolor sit amet, consectetur adipiscing
+                           elit. Posuere mattis pulvinar quis quam velarcu
+                           sapien, tristique nunc
+                        </h3>
+                        <p>
+                           Consequat nisl senectus malesuada sociis sagittis
+                           venenatis velit. Et augue lobortis fusce orci, vitae
+                           vestibulum eget volutpat. Egestas dolor in duis
+                           consectetur ut et mattis blandit. Morbi turpis ornare
+                           nec at quis cras malesuada. <br />
+                           Sed lectus malesuada tellus scelerisque. Donec
+                           adipiscing consequat, nec placerat vestibulum tempor
+                           semper massa viverra. Varius nunc, ut sollicitudin
+                           urna, velit mattis pharetra augue mattis. Volutpat
+                           nec dolor vulputate integer. Proin facilisis mauris
+                           congue duis a dis.
+                        </p>
+                     </div>
+                  </div>
+
+                  <div class="history-img col-12 col-md-5 mt-4">
+                     <img
+                        class="img-fluid"
+                        src="./assets/images/history_img_2.png"
+                        alt="history"
+                     />
+                  </div>
+               </div>
+
+               <!-- single history item -->
+               <div class="row mx-auto mt-5">
+                  <div class="history-img col-12 col-md-5">
+                     <img
+                        class="img-fluid"
+                        src="./assets/images/history_img_3.png"
+                        alt="history"
+                     />
+                  </div>
+                  <div
+                     class="
+                        history-text
+                        col-12 col-md-7
+                        d-flex
+                        align-items-center
+                     "
+                  >
+                     <div class="history-text-wrapper row align-items-center">
+                        <h3>
+                           Lorem ipsum dolor sit amet, consectetur adipiscing
+                           elit. Posuere mattis pulvinar quis quam velarcu
+                           sapien, tristique nunc
+                        </h3>
+                        <p class="mt-4">
+                           Consequat nisl senectus malesuada sociis sagittis
+                           venenatis velit. Et augue lobortis fusce orci, vitae
+                           vestibulum eget volutpat. Egestas dolor in duis
+                           consectetur ut et mattis blandit. Morbi turpis ornare
+                           nec at quis cras malesuada. <br />
+                           Sed lectus malesuada tellus scelerisque. Donec
+                           adipiscing consequat, nec placerat vestibulum tempor
+                           semper massa viverra. Varius nunc, ut sollicitudin
+                           urna, velit mattis pharetra augue mattis. Volutpat
+                           nec dolor vulputate integer. Proin facilisis mauris
+                           congue duis a dis.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+
+               <!-- mission simple -->
+               <div class="mission-simple my-5 py-5">
+                  <div class="mission-wrapper">
+                     <div
+                        class="
+                           mission-simple-title
+                           text-5A3051 text-center
+                           col-10
+                           mx-auto
+                           mb-5
+                        "
+                     >
+                        <h3>
+                           Our mission is to help small & medium fashion brands
+                           start a clothing line and solve production needs by
+                           offering a modern platform for sourcing suppliers
+                           online
+                        </h3>
+                     </div>
+
+                     <div class="row text-center">
+                        <div class="mission-simple-count text-5A3051 col-4">
+                           <h2>324+</h2>
+                           <p>
+                              Active <br />
+                              brands
+                           </p>
+                        </div>
+                        <div class="mission-simple-count text-5A3051 col-4">
+                           <h2>1000+</h2>
+                           <p>
+                              Clothing <br />
+                              manufacturer
+                           </p>
+                        </div>
+                        <div class="mission-simple-count text-5A3051 col-4">
+                           <h2>352+</h2>
+                           <p>
+                              orders recently <br />
+                              Shipped
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <!-- start now btn -->
+               <div class="achieve-button text-center mt-5">
+                  <button
+                     type="button"
+                     class="btn btn-common text-white bg-5A3051 text-center"
+                  >
+                     Start Now
+                  </button>
+               </div>
+
+               <p
+                  class="
+                     history-pera
+                     fs-5
+                     text-5A3051 text-center
+                     my-5
+                     py-4
+                     col-10
+                     mx-auto
+                  "
+               >
+                  When MassTex strengthened its presence in London attracting
+                  bigger clients, we developed a new vision that goes hand in
+                  hand with the latest technological trends – creating an online
+                  space where every Brand, no matter how big or small, benefits
+                  from step-by-step guidance through the clothing manufacturing
+                  process and is instantly matched with appropriate service
+                  providers from around the World, while manufacturers can
+                  easily browse through their projects and engage in business
+                  that suits their capabilities
+               </p>
+
+               <div class="launched text-5A3051 mb-5">
+                  <h3 class="mb-5 fw-bold px-3">
+                     In 2017, we proudly launched an online platform MassTex.
+                  </h3>
+
+                  <div class="row launched-details px-3">
+                     <div class="col-12 col-md-6">
+                        <p class="mb-5">
+                           Lorem ipsum dolor sit amet, consectetur adipiscing
+                           elit. Orci, ut euismod etiam cras mauris mattis.
+                        </p>
+
+                        <p class="mb-4">
+                           Lorem ipsum dolor sit amet, consectetur adipiscing
+                           elit. Metus orci, orci, lorem sit. Fermentum at urna,
+                           aliquet risus maecenas massa nec.
+                        </p>
+
+                        <span
+                           >Lorem ipsum dolor sit amet, consectetur adipiscing
+                           elit. Quam non fermentum quis lorem. Cras pretium
+                           diam eu consectetur sagittis ut dolor massa tempor.
+                           Vitae convallis lectus nisl neque molestie. Velit
+                           tortor purus ut in facilisis quis nisi. Tellus
+                           faucibus quis bibendum tortor. Non ornare ultricies
+                           morbi ipsum metus, felis. Velit ac nulla quis
+                           tristique id.</span
+                        >
+                     </div>
+
+                     <div class="col-12 col-md-6">
+                        <p>
+                           Lorem ipsum dolor sit amet, consectetur adipiscing
+                           elit. Scelerisque sed luctus mi, gravida et.
+                        </p>
+
+                        <span
+                           >Lorem ipsum dolor sit amet, consectetur adipiscing
+                           elit. Ornare arcu feugiat cras porta. Tristique id
+                           blandit ut risus mollis convallis velit ut sit.</span
+                        >
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <span
+                           >Lorem ipsum dolor sit amet, consectetur adipiscing
+                           elit. Amet iaculis sed orci, velit pharetra cursus.
+                           In luctus tristique nunc elementum suspendisse purus
+                           nec sagittis feugiat.</span
+                        >
+                     </div>
+                  </div>
+               </div>
+
+               <hr />
+               <div class="get-start row my-4">
+                  <div
+                     class="col-10 col-md-8 mx-auto text-center text-md-start"
+                  >
+                     <h3 class="text-5A3051">
+                        We are looking forward to turning your vision into a
+                        product and helping your business grow.
+                     </h3>
+                  </div>
+                  <div class="col-10 col-md-4 mx-auto">
+                     <div
+                        class="
+                           achieve-button
+                           text-center text-md-end
+                           w-100
+                           mx-auto
+                        "
+                     >
+                        <button
+                           type="button"
+                           class="
+                              btn-common btn
+                              text-white
+                              bg-5A3051
+                              mt-4 mt-md-2
+                           "
+                        >
+                           Start Now
+                        </button>
+                     </div>
+                  </div>
+               </div>
+               <hr />
+            </div>
+         </div>
+
+         <h2 class="text-center mt-5 pt-5">Why join MassTex?</h2>
+      </section>
+
+      <!-- join us section -->
+      <section class="join-us">
+         <div class="container">
+            <div class="row">
+               <!-- single join item -->
+               <div class="col-md-3 text-center p-5">
+                  <img
+                     class="img-fluid"
+                     src="./assets/images/join_1.png"
+                     alt="joinus"
+                  />
+                  <h5 class="mt-3">Excellent communications tools</h5>
+               </div>
+
+               <!-- single join item -->
+               <div class="col-md-3 text-center p-5">
+                  <img
+                     class="img-fluid"
+                     src="./assets/images/join_2.png"
+                     alt="joinus"
+                  />
+                  <h5 class="mt-3">Convenient project management software</h5>
+               </div>
+
+               <!-- single join item -->
+               <div class="col-md-3 text-center p-5">
+                  <img
+                     class="img-fluid"
+                     src="./assets/images/join_3.png"
+                     alt="joinus"
+                  />
+                  <h5 class="mt-3">
+                     Quick access to the best service providers
+                  </h5>
+               </div>
+
+               <!-- single join item -->
+               <div class="col-md-3 text-center p-5">
+                  <img
+                     class="img-fluid"
+                     src="./assets/images/join_4.png"
+                     alt="joinus"
+                  />
+                  <h5 class="mt-3">Rated and reviewed manufacturers</h5>
+               </div>
+            </div>
+            <div class="achieve-button text-center mt-4">
+               <button
+                  type="button"
+                  class="btn btn-common text-white bg-5A3051 text-center"
+               >
+                  Join Now
+               </button>
+            </div>
+         </div>
+      </section>
+
+      <!-- footer top -->
+      <section class="footer-top mt-5">
+         <div class="container">
+            <div class="footer-top-title px-3">
+               <h4
+                  class="
+                     text-center
+                     fw-bold
+                     text-5A3051 text-uppercase
+                     col-md-6
+                     mx-auto
+                  "
+               >
+                  Concentrate on what’s important. Leave the rest to us. Enter
+                  your email
+               </h4>
+            </div>
+
+            <!-- newsletter -->
+            <div class="newsletter col-sm-8 col-md-6 mx-auto mt-5">
+               <div class="newsletter-img">
+                  <img
+                     class="img-fluid"
+                     src="./assets/images/newsletter.png"
+                     alt="newsletter"
+                  />
+               </div>
+               <div class="input-group">
+                  <input
+                     type="text"
+                     class="form-control"
+                     placeholder="Enter Your Email Address"
+                     aria-label="Recipient's username"
+                     aria-describedby="button-addon2"
+                  />
+                  <button
+                     class="btn bg-5A3051 text-white"
+                     type="button"
+                     id="button-addon2"
+                  >
+                     Get Started
+                  </button>
+               </div>
+            </div>
+
+            <!-- menu -->
+            <div class="row menu-list mt-5 mx-2">
+               <div class="col-4 col-md-2 mx-md-auto">
+                  <h5 class="text-uppercase fw-bold mb-4">Menu</h5>
+                  <p><a href="#">Home</a></p>
+                  <p><a href="#">Manufacturers</a></p>
+                  <p><a href="#">Support</a></p>
+                  <p><a href="#">Learn</a></p>
+               </div>
+               <div class="col-4 col-md-2 mx-md-auto">
+                  <h5 class="text-uppercase fw-bold mb-4">Company</h5>
+                  <p><a href="#">About</a></p>
+                  <p><a href="#">Contact</a></p>
+                  <p><a href="#">FAQ</a></p>
+                  <p><a href="#">Press</a></p>
+               </div>
+               <div class="col-4 col-md-2 mx-md-auto">
+                  <h5 class="text-uppercase fw-bold mb-4">Available On</h5>
+                  <p>
+                     <a href="#">
+                        <img
+                           class="img-fluid"
+                           src="./assets/images/android.png"
+                           alt="androind_app"
+                        />
+                     </a>
+                  </p>
+                  <p class="text-start">
+                     <a href="#">
+                        <img
+                           class="img-fluid"
+                           src="./assets/images/ios.png"
+                           alt="ios_app"
+                        />
+                     </a>
+                  </p>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- footer -->
+      <footer class="footer bg-EDE3EB pt-5">
+         <div class="container">
+            <div class="terms text-center">
+               <span>
+                  <a class="text-5A3051" href="#"> Terms & Conditions | </a>
+               </span>
+
+               <span>
+                  <a class="text-5A3051" href="#"> Privacy Policy </a>
+               </span>
+            </div>
+
+            <!-- social icons -->
+            <div class="social text-center">
+               <span>
+                  <a class="text-5A3051" href=""
+                     ><i class="fab fa-pinterest"></i
+                  ></a>
+               </span>
+               <span>
+                  <a class="text-5A3051" href=""
+                     ><i class="fab fa-facebook"></i
+                  ></a>
+               </span>
+               <span class="twitter">
+                  <a class="text-5A3051" href=""
+                     ><i class="fab fa-twitter"></i
+                  ></a>
+               </span>
+               <span class="google">
+                  <a class="text-5A3051" href=""
+                     ><i class="fab fa-google"></i
+                  ></a>
+               </span>
+            </div>
+         </div>
+         <div class="footer-credit text-5A3051 text-center text-md-end">
+            <span>© 2021 MassTex. All Rights Registered</span>
+         </div>
+      </footer>
+
+      <!-- scripts -->
+      <script
+         src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+         crossorigin="anonymous"
+      ></script>
+   </body>
+</html>
