@@ -24,16 +24,17 @@
       />
 
       <!-- header -->
-      <link rel="stylesheet" href="./assets/styles/header.css" />
+      <!-- <link rel="stylesheet" href="./assets/styles/header.css" /> -->
 
       <!-- footer -->
-      <link rel="stylesheet" href="./assets/styles/footer.css" />
+      <!-- <link rel="stylesheet" href="./assets/styles/footer.css" /> -->
 
       <!-- common styles -->
-      <link rel="stylesheet" href="./assets/styles/common.css" />
+      <!-- <link rel="stylesheet" href="./assets/styles/common.css" /> -->
 
       <!-- Custom CSS -->
-      <link rel="stylesheet" href="./assets/styles/pricing.css" />
+      <!-- <link rel="stylesheet" href="./assets/styles/pricing.css" /> -->
+      <link rel="stylesheet" href="./assets/styles/style.css" />
    </head>
    <body>
       <!-- header -->
@@ -108,7 +109,9 @@
                         >
                      </li>
                      <li class="nav-item">
-                        <a class="text-white nav-link" href="./about.html">About Us</a>
+                        <a class="text-white nav-link" href="./about.html"
+                           >About Us</a
+                        >
                      </li>
                      <li class="nav-item dropdown">
                         <a
@@ -172,25 +175,83 @@
                <div class="col-md-6 mx-auto">
                   <div class="pricing-title text-center text-white">
                      <h2 class="mt-5 pt-5">All-in-one Premium Account:</h2>
-                     <h5>
+                     <h5 class="mt-3">
                         Source your next best manufacturer faster with unlimited
                         tools.
                      </h5>
                   </div>
                   <div
-                     class="pricing-buttons text-center bg-white mx-auto mt-4"
+                     class="
+                        pricing-buttons
+                        text-center
+                        bg-white
+                        mx-auto
+                        mt-4
+                        nav-pills nav
+                     "
+                     id="pills-tab"
+                     role="tablist"
                   >
                      <button
-                        class="btn text-lg bg-5A3051 text-white btn-monthly"
+                        class="
+                           btn
+                           text-lg
+                           bg-5A3051
+                           text-5A3051
+                           btn-monthly
+                           nav-link
+                           active
+                        "
+                        id="pills-home-tab"
+                        data-bs-toggle="pill"
+                        data-bs-target="#pills-home"
+                        type="button"
+                        role="tab"
+                        aria-controls="pills-home"
+                        aria-selected="true"
                      >
                         MONTHLY
                      </button>
-                     <button class="btn text-lg btn-yearly">YEARLY</button>
+                     <button
+                        class="btn text-lg btn-yearly nav-link text-5A3051"
+                        id="pills-profile-tab"
+                        data-bs-toggle="pill"
+                        data-bs-target="#pills-profile"
+                        type="button"
+                        role="tab"
+                        aria-controls="pills-profile"
+                        aria-selected="false"
+                     >
+                        YEARLY 
+                     </button>
                   </div>
+
+                  
+
                   <div class="packages bg-white mt-3">
                      <div class="pack-title text-center">
                         <h5 class="text-5A3051">PREMIUM</h5>
-                        <h1 class="price text-5A3051">$18.75</h1>
+
+                        <div class="tab-content" id="pills-tabContent">
+                           <div
+                              class="tab-pane fade show active"
+                              id="pills-home"
+                              role="tabpanel"
+                              aria-labelledby="pills-home-tab"
+                           >
+                              <h1 class="price text-5A3051">$18.75</h1>
+                           </div>
+                           <div
+                              class="tab-pane fade"
+                              id="pills-profile"
+                              role="tabpanel"
+                              aria-labelledby="pills-profile-tab"
+                           >
+                              <h1 class="price text-5A3051">$199.99</h1>
+                           </div>
+                        </div>
+
+                        <!-- <h1 class="price text-5A3051">$18.75</h1> -->
                      </div>
                      <div class="trial-button text-center">
                         <button class="btn bg-5A3051 text-white trial-btn">
