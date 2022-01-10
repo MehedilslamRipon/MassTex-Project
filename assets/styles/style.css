@@ -964,12 +964,26 @@ input::placeholder {
     left: 65%;
   }
 }
+
+.btn-signup a{
+  text-decoration: none;
+  color: var(--common-white);
+}
 /* ##### Signup End ###### */
 
 /* ##### Login Start ###### */
 
 .login-body {
   background-color: #532c4b;
+}
+
+.btn-login a{
+  color: var(--common-white);
+  text-decoration: none;
+}
+
+.btn-signup:hover a, .btn-login:hover a {
+  color: var(--common-white);
 }
 
 /* custom border color */
