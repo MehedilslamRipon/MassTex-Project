@@ -1480,9 +1480,58 @@ a:hover {
    padding: 8px;
 }
 
-.describe-fields p, input,
+.describe-fields p,
+input,
 input::-webkit-input-placeholder {
    font-size: 25px;
    /* line-height: 3; */
 }
+
+.single-select-service {
+   padding: 15px 30px;
+   border-radius: 10px;
+   border: 2.5px solid #ead8e6;
+}
+
+/* .service-details .input[type='checkbox'] {
+   zoom: 1.4;
+} */
+.check-size {
+   zoom: 1.4;
+}
+
+.big-comment {
+   width: 100%;
+   border: 3px solid #ead8e6;
+   border-radius: 10px;
+}
+
+.fileUpload {
+   -webkit-border-radius: 15px;
+   -moz-border-radius: 15px;
+   border-radius: 10px;
+   padding: 10px 43px;
+   font-size: 1em;
+   overflow: hidden;
+   position: relative;
+   text-align: center;
+   cursor: pointer;
+   margin-left: 10px;
+}
+.fileUpload input.upload {
+   position: absolute;
+   padding: 0;
+   font-size: 20px;
+   cursor: pointer;
+   opacity: 0;
+   filter: alpha(opacity=0);
+   width: 148px;
+   height: 46px;
+   cursor: pointer;
+}
+
+.file-upload {
+   border-radius: 15px;
+}
+
 /* ##### New Quote Request End ###### */
