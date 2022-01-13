@@ -125,8 +125,8 @@ h6 {
 .bg-1F1D36 {
    background: #1f1d36;
 }
-.bg-BBBBBB{
-   background: #BBBBBB;
+.bg-BBBBBB {
+   background: #bbbbbb;
 }
 .bg-414141 {
    background: #414141;
@@ -1579,3 +1579,22 @@ input::-webkit-input-placeholder {
    box-shadow: 0px 0px 12px rgba(90, 48, 81, 0.15);
 }
 /* ##### New Quote Request End ###### */
+
+/* ##### Billing Info Start ###### */
+.billing-card {
+   border: 2px solid #d5bfd0;
+}
+
+.card-wrapper img {
+   /* width: 50%; */
+   margin-right: 15px;
+}
+
+.billing-form input {
+   width: 100%;
+   padding: 10px 20px;
+   border: 1px solid #d5bfd0;
+   border-radius: 5px;
+}
+
+/* ##### Billing Info End ###### */
