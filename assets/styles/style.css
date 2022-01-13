@@ -7,6 +7,10 @@ body {
    font-family: 'Saira', sans-serif;
 }
 
+p {
+   text-align: justify;
+}
+
 :root {
    --main-bg-color: linear-gradient(90deg, #43243d 0%, #5e3255 100%);
    --heading-color: #1f1d36;
@@ -125,6 +129,7 @@ h6 {
 .bg-1F1D36 {
    background: #1f1d36;
 }
+
 .bg-BBBBBB {
    background: #bbbbbb;
 }
@@ -545,6 +550,32 @@ h6 {
    max-width: 330px;
 }
 
+.btn-monthly {
+   width: 236px;
+   height: 70px;
+   border-radius: 40px !important;
+}
+
+.btn-yearly {
+   border-radius: 40px !important;
+   width: 167px;
+}
+
+@media (max-width: 471px) {
+   .btn-monthly {
+      width: 125px;
+      height: 40px;
+   }
+   .btn-yearly {
+      width: 120px;
+      height: 40px;
+   }
+}
+
+.single-tool-item .tool-items-title p {
+   padding-right: 10px;
+}
+
 .nav-pills .nav-link.active {
    background: #5a3051;
    color: white;
@@ -894,10 +925,6 @@ h6 {
    border-radius: 22px;
 }
 
-input::placeholder {
-   font-size: 24px;
-}
-
 .form-check .form-check-input {
    float: none;
 }
@@ -975,6 +1002,11 @@ input::placeholder {
    background-color: #532c4b;
 }
 
+.btn-signup a {
+   text-decoration: none;
+   color: var(--common-white);
+}
+
 /* custom border color */
 .border-864879 {
    border-color: #864879 !important;
@@ -983,6 +1015,16 @@ input::placeholder {
 /* border redious */
 .rediout-xl {
    border-radius: 22px;
+}
+
+.btn-login a {
+   color: var(--common-white);
+   text-decoration: none;
+}
+
+.btn-signup:hover a,
+.btn-login:hover a {
+   color: var(--common-white);
 }
 
 input::placeholder {
@@ -1492,10 +1534,10 @@ a:hover {
    padding: 8px;
 }
 
-.describe-fields p,
-input,
+/* .describe-fields p,
+input, */
 input::-webkit-input-placeholder {
-   font-size: 22px;
+   font-size: 18px;
 }
 
 .single-select-service {
