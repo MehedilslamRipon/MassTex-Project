@@ -7,10 +7,6 @@ body {
    font-family: 'Saira', sans-serif;
 }
 
-p {
-   text-align: justify;
-}
-
 :root {
    --main-bg-color: linear-gradient(90deg, #43243d 0%, #5e3255 100%);
    --heading-color: #1f1d36;
@@ -128,6 +124,9 @@ h6 {
 /* background color scheme */
 .bg-1F1D36 {
    background: #1f1d36;
+}
+.bg-BBBBBB {
+   background: #bbbbbb;
 }
 .bg-414141 {
    background: #414141;
@@ -544,32 +543,6 @@ h6 {
 /* #####  Pricing Start ##### */
 .pricing-buttons {
    max-width: 330px;
-}
-
-.btn-monthly {
-   width: 236px;
-   height: 70px;
-   border-radius: 40px !important;
-}
-
-.btn-yearly {
-   border-radius: 40px !important;
-   width: 167px;
-}
-
-@media (max-width: 471px) {
-  .btn-monthly {
-    width: 125px;
-    height: 40px;
- }
-  .btn-yearly {
-    width: 120px;
-    height: 40px;
- }
-}
-
-.single-tool-item .tool-items-title p {
-   padding-right: 10px;
 }
 
 .nav-pills .nav-link.active {
@@ -994,27 +967,12 @@ input::placeholder {
       left: 65%;
    }
 }
-
-.btn-signup a {
-   text-decoration: none;
-   color: var(--common-white);
-}
 /* ##### Signup End ###### */
 
 /* ##### Login Start ###### */
 
 .login-body {
    background-color: #532c4b;
-}
-
-.btn-login a {
-   color: var(--common-white);
-   text-decoration: none;
-}
-
-.btn-signup:hover a,
-.btn-login:hover a {
-   color: var(--common-white);
 }
 
 /* custom border color */
@@ -1514,3 +1472,129 @@ a:hover {
    }
 }
 /* ##### desktop End ###### */
+
+/* ##### New Quote Request Start ###### */
+.describe-fields input {
+   border: 0;
+   width: 100%;
+   outline: 0;
+   background: transparent;
+   border-bottom: 3px solid #a6a6a6;
+   padding: 8px;
+}
+
+.advance-enquiry input {
+   border: 0;
+   width: 100%;
+   outline: 0;
+   background: transparent;
+   border-bottom: 3px solid #a6a6a6;
+   padding: 8px;
+}
+
+.describe-fields p,
+input,
+input::-webkit-input-placeholder {
+   font-size: 22px;
+}
+
+.single-select-service {
+   padding: 15px 30px;
+   border-radius: 10px;
+   border: 2.5px solid #ead8e6;
+}
+
+@media only screen and (max-width: 1200px) {
+   .describe-fields p,
+   input,
+   input::-webkit-input-placeholder {
+      font-size: 18px;
+   }
+}
+
+/* .service-details .input[type='checkbox'] {
+   zoom: 1.4;
+} */
+.check-size {
+   zoom: 1.4;
+}
+
+.big-comment {
+   width: 100%;
+   border: 3px solid #ead8e6;
+   border-radius: 10px;
+}
+
+.fileUpload {
+   -webkit-border-radius: 15px;
+   -moz-border-radius: 15px;
+   border-radius: 10px;
+   padding: 10px 43px;
+   font-size: 1em;
+   overflow: hidden;
+   position: relative;
+   text-align: center;
+   cursor: pointer;
+   margin-left: 10px;
+}
+.fileUpload input.upload {
+   position: absolute;
+   padding: 0;
+   font-size: 20px;
+   cursor: pointer;
+   opacity: 0;
+   filter: alpha(opacity=0);
+   width: 148px;
+   height: 46px;
+   cursor: pointer;
+}
+
+.file-upload {
+   border-radius: 15px;
+}
+
+.quote-btn {
+   width: 100%;
+}
+
+.btn-publish-advance {
+   width: 40%;
+}
+
+@media only screen and (max-width: 995px) {
+   .btn-publish-advance {
+      width: 80%;
+   }
+}
+
+@media only screen and (max-width: 450px) {
+   .btn-publish-advance {
+      width: 85%;
+      font-size: 16px;
+   }
+}
+
+.new-quote-wrapper {
+   border-radius: 15px;
+   box-shadow: 0px 0px 12px rgba(90, 48, 81, 0.15);
+}
+/* ##### New Quote Request End ###### */
+
+/* ##### Billing Info Start ###### */
+.billing-card {
+   border: 2px solid #d5bfd0;
+}
+
+.card-wrapper img {
+   /* width: 50%; */
+   margin-right: 15px;
+}
+
+.billing-form input {
+   width: 100%;
+   padding: 10px 20px;
+   border: 1px solid #d5bfd0;
+   border-radius: 5px;
+}
+
+/* ##### Billing Info End ###### */
