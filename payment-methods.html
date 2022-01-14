@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>My quote requests</title>
+
+      <!-- Bootstrap CDN CSS -->
+      <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+         crossorigin="anonymous"
+      />
+
+      <!-- bootstrap css -->
+      <!-- <link
+         rel="stylesheet"
+         href="./assets/styles/bootstrap/bootstrap.min.css"
+      /> -->
+
+      <!-- Font awesome Pro v5.10.0 CDN -->
+      <link
+         rel="stylesheet"
+         href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+         crossorigin="anonymous"
+      />
+
+      <!-- Custom CSS -->
+      <!-- <link rel="stylesheet" href="./assets/styles/common.css" /> -->
+      <!-- <link rel="stylesheet" href="./assets/styles/header.css" /> -->
+      <!-- <link rel="stylesheet" href="./assets/styles/footer.css" /> -->
+      <!-- <link rel="stylesheet" href="./assets/styles/my-quote-requests.css" /> -->
+      <!-- <link rel="stylesheet" href="./assets/styles/dashboard.css" /> -->
+      <link rel="stylesheet" href="./assets/styles/style.css" />
+   </head>
+
+   <body>
+      <header class="header-section">
+         <nav class="fs-5 navbar navbar-expand-lg navbar-light bg-transparent">
+            <div class="container-fluid">
+               <a class="navbar-brand" href="#">
+                  <img src="./assets/images/MassTex.png" alt="logo" />
+               </a>
+               <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+               >
+                  <span class="navbar-toggler-icon"></span>
+               </button>
+               <div
+                  class="collapse navbar-collapse"
+                  id="navbarSupportedContent"
+               >
+                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                     <li class="nav-item">
+                        <a
+                           class="text-white nav-link"
+                           aria-current="page"
+                           href="#"
+                           >Pricing</a
+                        >
+                     </li>
+
+                     <li class="nav-item">
+                        <a class="text-white nav-link" href="#"
+                           >Browse Service Providers</a
+                        >
+                     </li>
+                     <li class="nav-item">
+                        <a class="text-white nav-link" href="#">FAQ</a>
+                     </li>
+                     <li class="nav-item dropdown">
+                        <a
+                           class="text-white nav-link dropdown-toggle"
+                           href="#"
+                           id="navbarDropdown"
+                           role="button"
+                           data-bs-toggle="dropdown"
+                           aria-expanded="false"
+                        >
+                           How It Works
+                           <span
+                              ><img
+                                 src="./assets/images/dropdown.png"
+                                 alt="dropdown-icon"
+                           /></span>
+                        </a>
+                        <ul
+                           class="dropdown-menu"
+                           aria-labelledby="navbarDropdown"
+                        >
+                           <li>
+                              <a class="dropdown-item" href="#">For Brands</a>
+                           </li>
+                           <li>
+                              <hr class="dropdown-divider" />
+                           </li>
+                           <li>
+                              <a class="dropdown-item" href="#"
+                                 >For Manufactures</a
+                              >
+                           </li>
+                        </ul>
+                     </li>
+                  </ul>
+                  <form class="d-flex">
+                     <button
+                        class="fs-5 btn btn-login text-white px-4"
+                        type="submit"
+                     >
+                        <img
+                           src="./assets/images/message_nav.png"
+                           alt="message"
+                           class="img-fluid"
+                        />
+                     </button>
+                     <button
+                        class="btn fs-5 btn-signup bg-E9A6A6 text-white"
+                        type="submit"
+                     >
+                        Logout
+                     </button>
+                  </form>
+               </div>
+            </div>
+         </nav>
+      </header>
+
+      <section class="bg-grad">
+         <div class="container-fluid">
+            <div class="row px-4 px-lg-5 mx-lg-3">
+               <div class="border-bottom border-E9A6A6"></div>
+            </div>
+         </div>
+      </section>
+
+      <section class="bg-grad">
+         <div class="container-fluid container-xl">
+            <div class="row">
+               <div
+                  class="d-flex gap-2 gap-lg-1 justify-content-center justify-content-lg-between flex-grow-1 flex-wrap text-sm text-E9A6A6 py-4"
+               >
+                  <div class="d-flex gap-1 align-items-center">
+                     <i class="fas fa-toolbox"></i>
+                     <p>My quote requests</p>
+                  </div>
+                  <div class="d-flex gap-1 align-items-center">
+                     <i class="fas fa-plus-circle"></i>
+                     <p>New quote request</p>
+                  </div>
+                  <div class="d-flex gap-1 align-items-center">
+                     <i class="fas fa-search"></i>
+                     <p>Manufacturers</p>
+                  </div>
+                  <div class="d-flex gap-1 align-items-center">
+                     <i class="fas fa-toolbox"></i>
+                     <p>Toolbox</p>
+                  </div>
+                  <div class="d-flex gap-1 align-items-center">
+                     <i class="fas fa-address-book"></i>
+                     <p>Contacts</p>
+                  </div>
+                  <div class="d-flex gap-1 align-items-center">
+                     <i class="fas fa-id-badge"></i>
+                     <p>Profile</p>
+                  </div>
+                  <div class="d-flex gap-1 align-items-center">
+                     <i class="fas fa-inbox-in"></i>
+                     <p>Inbox</p>
+                  </div>
+                  <div class="d-flex gap-1 align-items-center">
+                     <i class="fas fa-credit-card-front"></i>
+                     <p>Payments</p>
+                  </div>
+                  <div class="d-flex gap-1 align-items-center">
+                     <i class="fas fa-cogs"></i>
+                     <p>Techpack</p>
+                  </div>
+                  <div class="d-flex gap-1 align-items-center">
+                     <i class="fas fa-box-full"></i>
+                     <p>Parcels</p>
+                  </div>
+                  <div class="d-flex gap-1 align-items-center">
+                     <i class="fas fa-cog"></i>
+                     <p>Account</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+    <div class="container-fluid container-md py-5">
+        <div class="row justify-content-center justify-content-sm-between gap-2 gap-sm-0">
+            <div class="col-10 col-sm-4 d-grid">
+                <button type="button"
+                    class="border-0 bg-EAD8E6 redious-md text-5A3051 fs-5 text-capitalize py-3 fw-bold">my
+                    orders</button>
+            </div>
+            <div class="col-10 col-sm-4 d-grid">
+                <button type="button"
+                    class="border-0 bg-5A3051 redious-md text-white fs-5 text-capitalize py-3 fw-bold">payment
+                    methods</button>
+            </div>
+            <div class="col-10 col-sm-4 d-grid">
+                <button type="button"
+                    class="border-0 bg-EAD8E6 redious-md text-5A3051 fs-5 text-capitalize py-3 fw-bold">Billing
+                    information</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid py-5">
+        <div class="row">
+            <div class="col-12 col-sm-11 m-auto">
+                <table class="table border border-EAD8E6">
+                    <thead class="bg-EAD8E6">
+                        <tr>
+                            <th class="text-start text-sm-center  fs-xs-5 fs-5">Registration Number</th>
+                            <th class="text-start text-sm-center  fs-xs-5 fs-5">
+                                Action
+                            </th>
+                            <th class="text-end fs-xs-5 fs-5">
+                                <i class="fas fa-undo pe-2"></i>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody class="border-top-0">
+                        <tr>
+                            <td>
+                                <!-- <div class="d-sm-flex gap-4 justify-content-center py-4"> -->
+                                <div class="d-sm-flex gap-4 justify-content-start py-4 ps-sm-2 ps-md-5">
+                                    <div>
+                                        <img src="./assets/images/logos_mastercard.png" alt="logos_mastercard"
+                                            class="img-fluid custom-res-img">
+                                    </div>
+                                    <div class="pt-3">
+                                        <span class="fs-xs-5 text-E9A6A6">***** *** ***** 8571</span>
+                                        <h5 class="text-uppercase fs-xs-3 fw-bold pb-2 text-5A3051">MUHAMMAD NAYEM</h5>
+                                        <h5 class="fs-xs-5 fw-bold text-5A3051">1/2024</h5>
+                                    </div>
+                                </div>
+                            </td>
+                            <td colspan="2">
+                                <div
+                                    class="d-flex justify-content-end align-items-center gap-3 gap-md-5 fs-xs-5 pt-5 mt-3 pe-sm-2 pe-md-5">
+                                    <h5 class="fs-xs-5 text-E9A6A6 pe-lg-5 me-lg-5">
+                                        <i class="fas fa-check-circle"></i>
+                                        Use as default
+                                    </h5>
+                                    <a href="#"
+                                        class="d-flex align-items-center gap-2 text-decoration-none text-danger">
+                                        <i class="fas fa-times fs-xs-5 fs-5"></i>
+                                        <span class="fs-5 d-none d-sm-inline-block">Delete</span>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class=" pt-4 mt-2 ps-sm-2 ps-md-5">
+                                    <h5 class="text-capitalize text-5A3051 fs-xs-5 fw-bold pt-5 pt-sm-0 mt-5 mt-sm-0">
+                                        <i class="fas fa-credit-card text-D5BFD0 pe-2"> </i>
+                                        Cradit Crad -
+                                        <span class="text-success">Add new</span>
+                                    </h5>
+                                </div>
+                            </td>
+                            <td colspan="2">
+                                <div
+                                    class="d-flex flex-column flex-sm-row gap-4 align-items-center justify-content-sm-end py-3 pe-sm-2 pe-md-5">
+                                    <div>
+                                        <img src="./assets/images/sm_logos_mastercard.png" alt="sm_logos_mastercard"
+                                            class="img-fluid">
+                                    </div>
+                                    <div>
+                                        <img src="./assets/images/logos_visa.png" alt="logos_visa" class="img-fluid">
+                                    </div>
+                                    <div>
+                                        <img src="./assets/images/cib_american-express.png" alt="cib_american-express"
+                                            class="img-fluid">
+                                    </div>
+                                    <div>
+                                        <img src="./assets/images/logos_maestro.png" alt="logos_maestro"
+                                            class="img-fluid">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                <div class="d-flex align-items-center fs-xs-5 fs-4 fw-bold ps-sm-2 ps-md-5">
+                                    <h3 class="fs-xs-5 fs-4 fw-bold text-5A3051 py-3">
+                                        <i class="fas fa-university pe-2 text-D5BFD0"></i>
+                                        Manual payment via bank transfer -
+                                    </h3>
+                                    <a href="#" class="text-decoration-none ps-2 text-success">Click Here</a>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+        <!-- footer top -->
+        <section class="footer-dash-top mt-5 pt-5">
+            <div class="container">
+               <div class="row menu-list mt-5 mx-2">
+                  <div class="col-4 col-md-2 mx-md-auto">
+                     <h5 class="text-uppercase fw-bold mb-4">Menu</h5>
+                     <p><a href="#">Home</a></p>
+                     <p><a href="#">Manufacturers</a></p>
+                     <p><a href="#">Support</a></p>
+                     <p><a href="#">Learn</a></p>
+                  </div>
+                  <div class="col-4 col-md-2 mx-md-auto">
+                     <h5 class="text-uppercase fw-bold mb-4">Company</h5>
+                     <p><a href="#">About</a></p>
+                     <p><a href="#">Contact</a></p>
+                     <p><a href="#">FAQ</a></p>
+                     <p><a href="#">Press</a></p>
+                  </div>
+                  <div class="col-4 col-md-2 mx-md-auto">
+                     <h5 class="text-uppercase fw-bold mb-4">Available On</h5>
+                     <p>
+                        <a href="#">
+                           <img
+                              class="img-fluid"
+                              src="./assets/images/android.png"
+                              alt="androind_app"
+                           />
+                        </a>
+                     </p>
+                     <p class="text-start">
+                        <a href="#">
+                           <img
+                              class="img-fluid"
+                              src="./assets/images/ios.png"
+                              alt="ios_app"
+                           />
+                        </a>
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </section>
+   
+         <!-- footer -->
+         <footer class="footer bg-EDE3EB pt-5">
+            <div class="container">
+               <div class="terms text-center">
+                  <span>
+                     <a class="text-5A3051" href="#"> Terms & Conditions | </a>
+                  </span>
+   
+                  <span>
+                     <a class="text-5A3051" href="#"> Privacy Policy </a>
+                  </span>
+               </div>
+   
+               <div class="social text-center">
+                  <span>
+                     <a class="text-5A3051" href=""
+                        ><i class="fab fa-pinterest"></i
+                     ></a>
+                  </span>
+                  <span>
+                     <a class="text-5A3051" href=""
+                        ><i class="fab fa-facebook"></i
+                     ></a>
+                  </span>
+                  <span class="twitter">
+                     <a class="text-5A3051" href=""
+                        ><i class="fab fa-twitter"></i
+                     ></a>
+                  </span>
+                  <span class="google">
+                     <a class="text-5A3051" href=""
+                        ><i class="fab fa-google"></i
+                     ></a>
+                  </span>
+               </div>
+            </div>
+            <div class="footer-credit text-5A3051 text-center text-md-end">
+               <span>© 2021 MassTex. All Rights Registered</span>
+            </div>
+         </footer>
+   
+         <!-- scripts -->
+         <script
+         src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+         crossorigin="anonymous"
+      ></script>
+   
+         <!-- bootstrap js -->
+         <!-- <script src="./assets/sripts/bootstrap/bootstrap.bundle.min.js"></script> -->
+      </body>
+   </html>
+   

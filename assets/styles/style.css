@@ -49,6 +49,9 @@ h6 {
 .text-1F1D36 {
    color: #1f1d36;
 }
+.text-C2B8C0 {
+   color: #c2b8c0;
+}
 .text-C4CBD3 {
    color: #c4cbd3;
 }
@@ -128,6 +131,14 @@ h6 {
 /* background color scheme */
 .bg-1F1D36 {
    background: #1f1d36;
+}
+
+.bg-F9E9E9 {
+   background: #f9e9e9;
+}
+
+.bg-FAF5F9 {
+   background: #faf5f9;
 }
 
 .bg-BBBBBB {
@@ -1662,3 +1673,136 @@ input::-webkit-input-placeholder {
    color: #e6701b;
 }
 /* ##### Techpacks End ###### */
+
+/* ##### Per Techpacks Start ###### */
+
+.border-8 {
+   border-radius: 8px;
+   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+}
+
+.upload-top {
+   border: 3px dashed #d5bfd0;
+   border-spacing: 3;
+}
+
+.upload-bottom {
+   border: 1.2px solid #e9a6a6;
+}
+
+.attach-title {
+   border-radius: 8px 8px 0px 0px;
+}
+
+.measure-plus img {
+   border-radius: 5px;
+   margin-left: 10px;
+}
+
+.measure-dropdown {
+   border: 2px solid #c2b8c0;
+}
+
+.arrow {
+   border: solid #c2b8c0;
+   border-width: 0 3px 3px 0;
+   display: inline-block;
+   padding: 4px;
+}
+
+.down {
+   transform: rotate(45deg);
+   -webkit-transform: rotate(45deg);
+   margin-left: 15px;
+}
+
+.letter-circle {
+   background: #2dac61;
+   border-radius: 50%;
+   border-radius: 50%;
+   padding: 8px 15px;
+}
+
+.measure-input {
+   width: 100%;
+   border-radius: 5px;
+   padding: 6px 0;
+   border: 2px solid #ede3eb;
+}
+
+td img {
+   margin-left: 10px;
+   width: 30px;
+   height: 30px;
+}
+/* ##### Per Techpacks End ###### */
+
+/* ##### Project Veiw Start ###### */
+#project-veiw .form-control {
+   font-size: 25px;
+   color: #5a3051;
+}
+
+#project-veiw .form-control:focus {
+   box-shadow: none;
+   color: #5a3051;
+}
+/* ##### Project Veiw End ###### */
+
+/* ##### My Orders End ###### */
+@media (max-width: 992px) {
+   .custom-select {
+      width: 100px !important;
+   }
+}
+/* ##### My Orders end ###### */
+
+/* ##### Toolbox End ###### */
+.bg-img {
+   height: 230px;
+   background-image: linear-gradient(
+         to right,
+         rgba(90, 48, 81, 0.43),
+         rgba(90, 48, 81, 0.43)
+      ),
+      url('../images/bg.png');
+   background-size: cover;
+   background-position: top;
+}
+
+#toolbox .form-control,
+.form-select {
+   color: #c2b8c0;
+}
+
+#toolbox .form-control:focus,
+.form-select:focus {
+   box-shadow: none;
+   border-color: #c2b8c0;
+}
+
+#toolbox .form-control::placeholder {
+   color: #c2b8c0;
+   font-size: 16px;
+}
+
+/* ##### Toolbox end ###### */
+
+.border-EAD8E6 {
+   border-color: #ead8e6 !important;
+}
+
+/* ########## Responsive Image ########### */
+@media (max-width: 575.98px) {
+   .custom-res-img {
+      width: 100px !important;
+      height: 80px !important;
+   }
+}
+
+/* ########## Responsive font size ########### */
+@media (max-width: 575.98px) {
+   .fs-xs-3 {
+      font-size: 1rem !important;
+   }
+}
