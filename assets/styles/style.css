@@ -1678,6 +1678,10 @@ input::-webkit-input-placeholder {
 .contract-ratings {
    color: #e6701b;
 }
+
+.tools-name img {
+   height: 14px;
+}
 /* ##### Techpacks End ###### */
 
 /* ##### Per Techpacks Start ###### */
