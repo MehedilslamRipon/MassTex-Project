@@ -22,15 +22,15 @@
          crossorigin="anonymous"
       />
 
-      <link rel="stylesheet" href="./assets/styles/style.css" />
+      <link rel="stylesheet" href="./../assets/styles/style.css" />
    </head>
 
-   <body class="bg-FAF5F9">
+   <body>
       <header class="header-section">
          <nav class="fs-5 navbar navbar-expand-lg navbar-light bg-transparent">
             <div class="container-fluid">
                <a class="navbar-brand" href="#">
-                  <img src="./assets/images/MassTex.png" alt="logo" />
+                  <img src="./../assets/images/MassTex.png" alt="logo" />
                </a>
                <button
                   class="navbar-toggler"
@@ -77,7 +77,7 @@
                            How It Works
                            <span
                               ><img
-                                 src="./assets/images/dropdown.png"
+                                 src="./../assets/images/dropdown.png"
                                  alt="dropdown-icon"
                            /></span>
                         </a>
@@ -105,7 +105,7 @@
                         type="submit"
                      >
                         <img
-                           src="./assets/images/message_nav.png"
+                           src="./../assets/images/message_nav.png"
                            alt="message"
                            class="img-fluid"
                         />
@@ -193,50 +193,176 @@
          </div>
       </section>
 
-      <div class="container-fluid">
-         <div class="row align-items-center bg-img-full position-relative">
-            <h2 class="text-uppercase text-white fs-1 text-center pb-5">
-               toolbox
-            </h2>
-            <div
-               class="col position-absolute top-100 start-50 translate-middle"
-            >
-               <div class="row gap-3 gap-sm-5 justify-content-center">
-                  <div
-                     class="col-5 col-sm-4 bg-white shadow text-center text-5A3051 py-4 position-relative"
-                  >
-                     <i
-                        class="fas fa-calculator fs-custom text-E9A6A6 pb-0 pb-sm-4"
-                     ></i>
-                     <div class="text-uppercase pt-4">
-                        <h5 class="fs-4 fs-xs-5">Fabric Consumption</h5>
-                        <h5 class="fs-4 fs-xs-5">Averages per garment</h5>
-                     </div>
-
-                     <div
-                        class="border-6 border-bottom border-E9A6A6 w-25 rounded-pill position-absolute top-100 start-50 translate-middle"
-                     ></div>
-                  </div>
-
-                  <div
-                     class="col-5 col-sm-4 bg-white shadow text-center text-5A3051 py-4 position-relative"
-                  >
-                     <i
-                        class="fas fa-grip-lines-vertical fs-custom text-E9A6A6 pb-0 pb-sm-4"
-                     ></i>
-                     <div class="text-uppercase pt-4">
-                        <h5 class="fs-4 fs-xs-5">Garment Parts</h5>
-                        <h5 class="fs-4 fs-xs-5">visual library</h5>
-                     </div>
-
-                     <div
-                        class="border-6 border-bottom border-E9A6A6 w-25 rounded-pill position-absolute top-100 start-50 translate-middle"
-                     ></div>
-                  </div>
-               </div>
+      <div class="container-fluid container-md py-5">
+         <div
+            class="row justify-content-center justify-content-sm-between gap-2 gap-sm-0"
+         >
+            <div class="col-10 col-sm-4 d-grid">
+               <button
+                  type="button"
+                  class="border-0 bg-EAD8E6 redious-md text-5A3051 fs-5 text-capitalize py-3 fw-bold"
+               >
+                  my orders
+               </button>
+            </div>
+            <div class="col-10 col-sm-4 d-grid">
+               <button
+                  type="button"
+                  class="border-0 bg-5A3051 redious-md text-white fs-5 text-capitalize py-3 fw-bold"
+               >
+                  payment methods
+               </button>
+            </div>
+            <div class="col-10 col-sm-4 d-grid">
+               <button
+                  type="button"
+                  class="border-0 bg-EAD8E6 redious-md text-5A3051 fs-5 text-capitalize py-3 fw-bold"
+               >
+                  Billing information
+               </button>
             </div>
          </div>
       </div>
+
+      <div class="container-fluid py-5">
+         <div class="row">
+            <div class="col-12 col-sm-11 m-auto">
+               <table class="table border border-EAD8E6">
+                  <thead class="bg-EAD8E6">
+                     <tr>
+                        <th class="text-start text-sm-center fs-xs-5 fs-5">
+                           Registration Number
+                        </th>
+                        <th class="text-start text-sm-center fs-xs-5 fs-5">
+                           Action
+                        </th>
+                        <th class="text-end fs-xs-5 fs-5">
+                           <i class="fas fa-undo pe-2"></i>
+                        </th>
+                     </tr>
+                  </thead>
+                  <tbody class="border-top-0">
+                     <tr>
+                        <td>
+                           <!-- <div class="d-sm-flex gap-4 justify-content-center py-4"> -->
+                           <div
+                              class="d-sm-flex gap-4 justify-content-start py-4 ps-sm-2 ps-md-5"
+                           >
+                              <div>
+                                 <img
+                                    src="./../assets/images/logos_mastercard.png"
+                                    alt="logos_mastercard"
+                                    class="img-fluid custom-res-img"
+                                 />
+                              </div>
+                              <div class="pt-3">
+                                 <span class="fs-xs-5 text-E9A6A6"
+                                    >***** *** ***** 8571</span
+                                 >
+                                 <h5
+                                    class="text-uppercase fs-xs-3 fw-bold pb-2 text-5A3051"
+                                 >
+                                    MUHAMMAD NAYEM
+                                 </h5>
+                                 <h5 class="fs-xs-5 fw-bold text-5A3051">
+                                    1/2024
+                                 </h5>
+                              </div>
+                           </div>
+                        </td>
+                        <td colspan="2">
+                           <div
+                              class="d-flex justify-content-end align-items-center gap-3 gap-md-5 fs-xs-5 pt-5 mt-3 pe-sm-2 pe-md-5"
+                           >
+                              <h5 class="fs-xs-5 text-E9A6A6 pe-lg-5 me-lg-5">
+                                 <i class="fas fa-check-circle"></i>
+                                 Use as default
+                              </h5>
+                              <a
+                                 href="#"
+                                 class="d-flex align-items-center gap-2 text-decoration-none text-danger"
+                              >
+                                 <i class="fas fa-times fs-xs-5 fs-5"></i>
+                                 <span class="fs-5 d-none d-sm-inline-block"
+                                    >Delete</span
+                                 >
+                              </a>
+                           </div>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <div class="pt-4 mt-2 ps-sm-2 ps-md-5">
+                              <h5
+                                 class="text-capitalize text-5A3051 fs-xs-5 fw-bold pt-5 pt-sm-0 mt-5 mt-sm-0"
+                              >
+                                 <i class="fas fa-credit-card text-D5BFD0 pe-2">
+                                 </i>
+                                 Cradit Crad -
+                                 <span class="text-success">Add new</span>
+                              </h5>
+                           </div>
+                        </td>
+                        <td colspan="2">
+                           <div
+                              class="d-flex flex-column flex-sm-row gap-4 align-items-center justify-content-sm-end py-3 pe-sm-2 pe-md-5"
+                           >
+                              <div>
+                                 <img
+                                    src="./../assets/images/sm_logos_mastercard.png"
+                                    alt="sm_logos_mastercard"
+                                    class="img-fluid"
+                                 />
+                              </div>
+                              <div>
+                                 <img
+                                    src="./../assets/images/logos_visa.png"
+                                    alt="logos_visa"
+                                    class="img-fluid"
+                                 />
+                              </div>
+                              <div>
+                                 <img
+                                    src="./../assets/images/cib_american-express.png"
+                                    alt="cib_american-express"
+                                    class="img-fluid"
+                                 />
+                              </div>
+                              <div>
+                                 <img
+                                    src="./../assets/images/logos_maestro.png"
+                                    alt="logos_maestro"
+                                    class="img-fluid"
+                                 />
+                              </div>
+                           </div>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td colspan="3">
+                           <div
+                              class="d-flex align-items-center fs-xs-5 fs-4 fw-bold ps-sm-2 ps-md-5"
+                           >
+                              <h3 class="fs-xs-5 fs-4 fw-bold text-5A3051 py-3">
+                                 <i
+                                    class="fas fa-university pe-2 text-D5BFD0"
+                                 ></i>
+                                 Manual payment via bank transfer -
+                              </h3>
+                              <a
+                                 href="#"
+                                 class="text-decoration-none ps-2 text-success"
+                                 >Click Here</a
+                              >
+                           </div>
+                        </td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
+         </div>
+      </div>
+
       <!-- footer top -->
       <section class="footer-dash-top mt-5 pt-5">
          <div class="container">
@@ -261,7 +387,7 @@
                      <a href="#">
                         <img
                            class="img-fluid"
-                           src="./assets/images/android.png"
+                           src="./../assets/images/android.png"
                            alt="androind_app"
                         />
                      </a>
@@ -270,7 +396,7 @@
                      <a href="#">
                         <img
                            class="img-fluid"
-                           src="./assets/images/ios.png"
+                           src="./../assets/images/ios.png"
                            alt="ios_app"
                         />
                      </a>

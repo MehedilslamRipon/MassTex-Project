@@ -22,7 +22,7 @@
          crossorigin="anonymous"
       />
 
-      <link rel="stylesheet" href="./assets/styles/style.css" />
+      <link rel="stylesheet" href="./../assets/styles/style.css" />
    </head>
 
    <body>
@@ -30,7 +30,7 @@
          <nav class="fs-5 navbar navbar-expand-lg navbar-light bg-transparent">
             <div class="container-fluid">
                <a class="navbar-brand" href="#">
-                  <img src="./assets/images/MassTex.png" alt="logo" />
+                  <img src="./../assets/images/MassTex.png" alt="logo" />
                </a>
                <button
                   class="navbar-toggler"
@@ -77,7 +77,7 @@
                            How It Works
                            <span
                               ><img
-                                 src="./assets/images/dropdown.png"
+                                 src="./../assets/images/dropdown.png"
                                  alt="dropdown-icon"
                            /></span>
                         </a>
@@ -105,7 +105,7 @@
                         type="submit"
                      >
                         <img
-                           src="./assets/images/message_nav.png"
+                           src="./../assets/images/message_nav.png"
                            alt="message"
                            class="img-fluid"
                         />
@@ -193,31 +193,73 @@
          </div>
       </section>
 
-      <section class="px-sm-5">
-         <div class="container py-4">
-            <div
-               class="d-flex justify-content-between align-items-center text-5A3051"
-            >
-               <h3 class="text-uppercase">my pracels</h3>
-               <a href="#" class="text-decoration-none fs-3">
-                  <i class="fas fa-undo pe-3"></i>
-               </a>
+      <div class="container-fluid container-md py-5">
+         <div
+            class="row justify-content-center justify-content-sm-between gap-2 gap-sm-0"
+         >
+            <div class="col-10 col-sm-4 d-grid">
+               <button
+                  type="button"
+                  class="border-0 bg-EAD8E6 redious-md text-5A3051 fs-5 text-capitalize py-3 fw-bold"
+               >
+                  my orders
+               </button>
+            </div>
+            <div class="col-10 col-sm-4 d-grid">
+               <button
+                  type="button"
+                  class="border-0 bg-5A3051 redious-md text-white fs-5 text-capitalize py-3 fw-bold"
+               >
+                  payment methods
+               </button>
+            </div>
+            <div class="col-10 col-sm-4 d-grid">
+               <button
+                  type="button"
+                  class="border-0 bg-EAD8E6 redious-md text-5A3051 fs-5 text-capitalize py-3 fw-bold"
+               >
+                  Billing information
+               </button>
             </div>
          </div>
+      </div>
 
-         <div class="container">
-            <div class="row-cols-1 align-items-sm-center">
-               <div
-                  class="d-flex gx-2 justify-content-start flex-grow-1 flex-wrap text-capitalize text-5A3051"
-               >
-                  <div class="btn bg-5A3051 rounded-0 rounded-top fw-bold">
-                     <a href="#" class="text-decoration-none text-white"
-                        >Incoming</a
-                     >
+      <section class="px-sm-5">
+         <div class="container-fluid">
+            <div class="row align-items-sm-center">
+               <div class="col-10 ps-sm-5">
+                  <div
+                     class="d-flex gx-2 justify-content-start flex-grow-1 flex-wrap text-capitalize text-5A3051"
+                  >
+                     <div class="btn bg-5A3051 rounded-0 rounded-top fw-bold">
+                        <a href="#" class="text-decoration-none text-white"
+                           >My Orders</a
+                        >
+                     </div>
+                     <div class="btn fw-bold">
+                        <a href="#" class="text-decoration-none"
+                           >User to user agreements</a
+                        >
+                     </div>
+                     <div class="btn fw-bold">
+                        <a href="#" class="text-decoration-none"
+                           >invoices from sewport</a
+                        >
+                     </div>
+                     <div class="btn fw-bold">
+                        <a href="#" class="text-decoration-none">Refunds</a>
+                     </div>
+                     <div class="btn fw-bold">
+                        <a href="#" class="text-decoration-none"
+                           >ubscription Invoices</a
+                        >
+                     </div>
                   </div>
-                  <div class="btn fw-bold">
-                     <a href="#" class="text-decoration-none">Outgoing</a>
-                  </div>
+               </div>
+               <div class="col-2 text-end pt-2 pt-sm-0">
+                  <a href="#" class="text-decoration-none">
+                     <i class="fas fa-undo pe-3"></i>
+                  </a>
                </div>
             </div>
          </div>
@@ -230,19 +272,27 @@
                         class="bg-EAD8E6 text-5A3051 text-capitalize fs-xs-5 fs-5 lh-1"
                      >
                         <tr>
-                           <th class="py-3" scope="col">#</th>
-                           <th class="py-3" scope="col">Sender</th>
-                           <th class="py-3" scope="col">Package Info</th>
-                           <th class="py-3" scope="col">Tracking nr.</th>
-                           <th class="py-3" scope="col">Courier Company</th>
-                           <th class="py-3" scope="col">Estimated Arrival</th>
-                           <th class="py-3" scope="col">Last Updated</th>
-                           <th class="py-3" scope="col">State</th>
+                           <th class="py-3" scope="col">Description</th>
+                           <th class="py-3" scope="col">Total Amount</th>
+                           <th class="py-3" scope="col">Paid out</th>
+                           <th class="py-3" scope="col">In ESCROW</th>
+                           <th class="py-3" scope="col">released</th>
+                           <th class="py-3" scope="col">conversation</th>
+                           <th class="py-3" scope="col">status</th>
+                           <th class="" width="200" scope="col">
+                              <select class="form-select custom-select">
+                                 <option selected>all</option>
+                                 <option value="1">One</option>
+                                 <option value="2">Two</option>
+                                 <option value="3">Three</option>
+                              </select>
+                           </th>
+                           <th class="py-3" scope="col">Receiver</th>
                         </tr>
                      </thead>
                      <tbody class="border-top-0">
                         <tr>
-                           <td colspan="8">
+                           <td colspan="9">
                               <div class="bg-E9A6A6 opacity-25 rounded-3">
                                  <p
                                     class="text-danger fw-bold text-sm text-center py-3"
@@ -253,7 +303,8 @@
                            </td>
                         </tr>
                         <tr>
-                           <th scope="col">One</th>
+                           <td>One</td>
+                           <td>One</td>
                            <td>One</td>
                            <td>One</td>
                            <td>One</td>
@@ -293,7 +344,7 @@
                      <a href="#">
                         <img
                            class="img-fluid"
-                           src="./assets/images/android.png"
+                           src="./../assets/images/android.png"
                            alt="androind_app"
                         />
                      </a>
@@ -302,7 +353,7 @@
                      <a href="#">
                         <img
                            class="img-fluid"
-                           src="./assets/images/ios.png"
+                           src="./../assets/images/ios.png"
                            alt="ios_app"
                         />
                      </a>

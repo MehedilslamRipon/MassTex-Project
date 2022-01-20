@@ -22,15 +22,15 @@
          crossorigin="anonymous"
       />
 
-      <link rel="stylesheet" href="./assets/styles/style.css" />
+      <link rel="stylesheet" href="./../assets/styles/style.css" />
    </head>
 
-   <body class="bg-BBBBBB">
+   <body class="bg-FAF5F9">
       <header class="header-section">
          <nav class="fs-5 navbar navbar-expand-lg navbar-light bg-transparent">
             <div class="container-fluid">
                <a class="navbar-brand" href="#">
-                  <img src="./assets/images/MassTex.png" alt="logo" />
+                  <img src="./../assets/images/MassTex.png" alt="logo" />
                </a>
                <button
                   class="navbar-toggler"
@@ -77,7 +77,7 @@
                            How It Works
                            <span
                               ><img
-                                 src="./assets/images/dropdown.png"
+                                 src="./../assets/images/dropdown.png"
                                  alt="dropdown-icon"
                            /></span>
                         </a>
@@ -105,7 +105,7 @@
                         type="submit"
                      >
                         <img
-                           src="./assets/images/message_nav.png"
+                           src="./../assets/images/message_nav.png"
                            alt="message"
                            class="img-fluid"
                         />
@@ -193,280 +193,325 @@
          </div>
       </section>
 
-      <!-- new quote main -->
-      <section class="new-quote">
-         <div class="container">
-            <div class="new-quote-wrapper bg-white mt-5 p-4">
-               <div class="describe">
-                  <div class="describe-title">
-                     <h1 class="text-5A3051">
-                        Complete a quick guided form describing what you need
-                     </h1>
-                  </div>
+      <!-- <i class="fas fa-cloud-download-alt"></i> -->
 
-                  <div class="describe-fields mt-4">
-                     <div class="row">
-                        <div class="col-10 col-md-6 col-lg-4 px-md-4">
-                           <input
-                              type="text"
-                              placeholder="CATEGORY"
-                              name=""
-                              id=""
-                           />
-                           <br />
-                           <input
-                              class="mt-4"
-                              type="text"
-                              placeholder="QUANTITY PER STYLE"
-                              name=""
-                              id=""
-                           />
-                        </div>
-
-                        <div
-                           class="col-10 col-md-6 col-lg-4 mt-5 mt-md-0 px-md-4"
-                        >
-                           <input
-                              type="text"
-                              name=""
-                              id=""
-                              placeholder="PROJECT NAME"
-                           />
-                           <br />
-                           <input
-                              class="mt-4"
-                              type="text"
-                              name=""
-                              id=""
-                              placeholder="NUMBER OF STYLES"
-                           />
-                        </div>
-
-                        <div
-                           class="col-10 col-md-6 col-lg-4 mt-md-5 mt-5 mt-lg-0 px-md-4"
-                        >
-                           <input
-                              type="text"
-                              name=""
-                              id=""
-                              placeholder="SIZES REQUIRED"
-                           />
-                           <br />
-                           <p class="text-A6A6A6 mt-5">TOTAL QUANTITY: 0</p>
-                        </div>
-                     </div>
-                  </div>
+      <section class="py-5 px-0 px-sm-5 m-0 m-sm-5 bg-white rediout-xl">
+         <div class="container-fluid">
+            <div class="d-flex flex-wrap">
+               <div
+                  class="col-12 col-sm-3 col-md-2 pe-2 text-center text-sm-start"
+               >
+                  <img
+                     src="./../assets/images/demo-file.png"
+                     alt="demo-img"
+                     class="img-fluid"
+                  />
                </div>
-
-               <div class="select-services mt-5">
-                  <h1 class="text-5A3051 mb-4">SELECT SERVICES YOU NEED</h1>
-                  <div class="row justify-content-center">
-                     <div class="col-10 col-md-6 col-lg-4">
-                        <div
-                           class="single-select-service d-flex align-items-center justify-content-between"
+               <div
+                  class="col-12 col-sm-9 col-md-10 pt-3 pt-sm-0"
+                  id="project-veiw"
+               >
+                  <form class="row">
+                     <div class="col-6 col-md-4 pb-4">
+                        <label class="text-uppercase fs-5 text-A6A6A6"
+                           >Project</label
                         >
-                           <div class="plus-icon">
-                              <img src="./assets/images/plus-icon.png" alt="" />
-                           </div>
-                           <div class="single-select-title fs-4 text-5A3051">
-                              Mass Production
-                           </div>
+                        <div>
+                           <input
+                              class="form-control border-0 border-bottom border-2 rounded-0 p-0"
+                              type="text"
+                              name="project"
+                           />
                         </div>
                      </div>
-                     <div class="col-10 col-md-6 col-lg-4 mt-4 mt-md-0">
-                        <div
-                           class="single-select-service d-flex align-items-center justify-content-between"
+                     <div class="col-6 col-md-4 pb-4">
+                        <label class="text-uppercase fs-5 text-A6A6A6"
+                           >Brand</label
                         >
-                           <div class="plus-icon">
-                              <img src="./assets/images/plus-icon.png" alt="" />
-                           </div>
-                           <div class="single-select-title fs-4 text-5A3051">
-                              Mass Production
-                           </div>
+                        <div>
+                           <input
+                              class="form-control border-0 border-bottom border-2 rounded-0 p-0"
+                              type="text"
+                              name="project"
+                           />
                         </div>
                      </div>
-                     <div class="col-10 col-md-6 col-lg-4 mt-4 mt-lg-0">
-                        <div
-                           class="single-select-service d-flex align-items-center justify-content-between"
+                     <div class="col-6 col-md-4 pb-4">
+                        <label class="text-uppercase fs-5 text-A6A6A6"
+                           >Country</label
                         >
-                           <div class="plus-icon">
-                              <img src="./assets/images/plus-icon.png" alt="" />
-                           </div>
-                           <div class="single-select-title fs-4 text-5A3051">
-                              Mass Production
-                           </div>
+                        <div>
+                           <input
+                              class="form-control border-0 border-bottom border-2 rounded-0 p-0"
+                              type="text"
+                              name="project"
+                           />
                         </div>
                      </div>
-                     <div class="col-10 col-md-6 col-lg-4 mt-4">
-                        <div
-                           class="single-select-service d-flex align-items-center justify-content-between"
+                     <div class="col-6 col-md-4">
+                        <label class="text-uppercase fs-5 text-A6A6A6"
+                           >Category</label
                         >
-                           <div class="plus-icon">
-                              <img src="./assets/images/plus-icon.png" alt="" />
-                           </div>
-                           <div class="single-select-title fs-4 text-5A3051">
-                              Mass Production
-                           </div>
+                        <div>
+                           <input
+                              class="form-control border-0 border-bottom border-2 rounded-0 p-0"
+                              type="text"
+                              name="project"
+                           />
                         </div>
                      </div>
-                     <div class="col-10 col-md-6 col-lg-4 mt-4">
-                        <div
-                           class="single-select-service d-flex align-items-center justify-content-between"
+                     <div class="col-5 col-md-4">
+                        <label class="text-uppercase fs-5 text-A6A6A6"
+                           >Status</label
                         >
-                           <div class="plus-icon">
-                              <img src="./assets/images/plus-icon.png" alt="" />
-                           </div>
-                           <div class="single-select-title fs-4 text-5A3051">
-                              Mass Production
-                           </div>
+                        <div>
+                           <input
+                              class="form-control border-0 border-bottom border-2 rounded-0 p-0"
+                              type="text"
+                              name="project"
+                           />
                         </div>
                      </div>
-                     <div class="col-10 col-md-6 col-lg-4 mt-4">
-                        <div
-                           class="single-select-service d-flex align-items-center justify-content-between"
-                        >
-                           <div class="plus-icon">
-                              <img src="./assets/images/plus-icon.png" alt="" />
-                           </div>
-                           <div class="single-select-title fs-4 text-5A3051">
-                              Mass Production
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-
-               <div class="service-details mt-5">
-                  <h1 class="text-uppercase text-5A3051 mb-4">Details</h1>
-                  <div class="row">
-                     <div class="col-10 col-md-6 col-lg-4">
+                     <div class="col-6 col-md-4 text-center pt-4">
                         <input
-                           class="fs-4 check-size"
-                           type="checkbox"
-                           name=""
-                           id="check1"
+                           class="btn bg-5A3051 text-white fw-light rounded-pill px-5 py-2"
+                           type="button"
+                           value="Edit Project"
                         />
-                        <label class="fs-4 text-5A3051" for="check1"
-                           >I Produced this before</label
-                        >
                      </div>
-                     <div class="col-10 col-md-6 col-lg-4">
-                        <input
-                           class="fs-4 check-size"
-                           type="checkbox"
-                           name=""
-                           id="check2"
-                        />
-                        <label class="fs-4 text-5A3051" for="check2"
-                           >I have a tech pack</label
-                        >
-                     </div>
-                     <div class="col-10 col-md-6 col-lg-4">
-                        <input
-                           class="fs-4 check-size"
-                           type="checkbox"
-                           name=""
-                           id="check3"
-                        />
-                        <label class="fs-4 text-5A3051" for="check3"
-                           >I have sewing patterns</label
-                        >
-                     </div>
-                  </div>
+                  </form>
                </div>
+            </div>
+         </div>
 
-               <div class="description-and-files mt-5">
-                  <h1 class="text-uppercase text-5A3051 mb-4">
-                     Description & files
-                  </h1>
-                  <textarea
-                     class="big-comment p-3"
-                     placeholder="Type your procuct description. more detailed information will ensure a more accurate quote."
-                     name=""
-                     id=""
-                     cols="30"
-                     rows="8"
-                  ></textarea>
+         <div class="container-fluid py-5">
+            <div class="row justify-content-center align-items-center">
+               <div class="d-none d-sm-block col-sm-3 col-md-4">
+                  <hr />
                </div>
+               <div
+                  class="col-9 col-sm-6 col-md-3 text-center py-3 redious-md bg-EAD8E6 text-5A3051 manufacturer"
+               >
+                  <h2 class="fs-4 fw-bold">Search Manufacturers</h2>
+               </div>
+               <div class="d-none d-sm-block col-sm-3 col-md-4">
+                  <hr />
+               </div>
+            </div>
+         </div>
 
-               <div class="file-upload p-5 bg-EDE3EB mt-5">
-                  <div class="upload-icon text-center">
-                     <img
-                        class="img-fluid"
-                        src="./assets/images/upload_ico.png"
-                        alt="upload"
-                     />
-                  </div>
-                  <div
-                     class="upload-here text-center justify-content-center align-items-center d-flex"
+         <div class="container-fluid py-5">
+            <div class="row">
+               <div class="pb-5">
+                  <h2 class="text-uppercase fs-1 text-5A3051 fw-bold">
+                     Amount
+                  </h2>
+               </div>
+               <div id="project-veiw">
+                  <form class="row">
+                     <div class="col-6 col-md-3 pb-4">
+                        <label class="text-uppercase fs-5 text-A6A6A6"
+                           >Of styles</label
+                        >
+                        <div>
+                           <input
+                              class="form-control border-0 border-bottom border-2 rounded-0 p-0"
+                              type="text"
+                              name="project"
+                           />
+                        </div>
+                     </div>
+                     <div class="col-6 col-md-3 pb-4">
+                        <label class="text-uppercase fs-5 text-A6A6A6"
+                           >Per style</label
+                        >
+                        <div>
+                           <input
+                              class="form-control border-0 border-bottom border-2 rounded-0 p-0"
+                              type="text"
+                              name="project"
+                           />
+                        </div>
+                     </div>
+                     <div class="col-6 col-md-3 pb-4">
+                        <label class="text-uppercase fs-5 text-A6A6A6"
+                           >Size</label
+                        >
+                        <div>
+                           <input
+                              class="form-control border-0 border-bottom border-2 rounded-0 p-0"
+                              type="text"
+                              name="project"
+                           />
+                        </div>
+                     </div>
+                     <div class="col-6 col-md-3 pb-4 text-end">
+                        <label class="text-uppercase fs-5 text-A6A6A6"
+                           >Total</label
+                        >
+                        <div>
+                           <input
+                              class="form-control border-0 rounded-0 p-0 ps-5 text-end"
+                              type="text"
+                              name="project"
+                           />
+                        </div>
+                     </div>
+                  </form>
+               </div>
+            </div>
+
+            <div class="row">
+               <div class="py-5">
+                  <h2 class="text-uppercase fs-1 text-5A3051 fw-bold">
+                     Additionals
+                  </h2>
+               </div>
+               <div id="project-veiw">
+                  <form class="row">
+                     <div class="col-6 col-md-3 pb-4">
+                        <label class="text-uppercase fs-5 text-A6A6A6"
+                           >Make Price</label
+                        >
+                        <div>
+                           <input
+                              class="form-control border-0 border-bottom border-2 rounded-0 p-0"
+                              type="text"
+                              name="project"
+                           />
+                        </div>
+                     </div>
+                     <div class="col-6 col-md-3 ms-0 ms-md-5 pb-4">
+                        <label class="text-uppercase fs-5 text-A6A6A6"
+                           >Item sell price</label
+                        >
+                        <div>
+                           <input
+                              class="form-control border-0 border-bottom border-2 rounded-0 p-0"
+                              type="text"
+                              name="project"
+                           />
+                        </div>
+                     </div>
+                  </form>
+               </div>
+            </div>
+
+            <div class="d-flex justify-content-between">
+               <div class="fs-xs-5 text-center text-sm-start">
+                  <h5 class="text-uppercase text-A6A6A6 py-2 fs-xs-5">
+                     Prodoced beffore
+                  </h5>
+                  <button
+                     class="border-0 bg-4AD093 text-white px-4 px-sm-5 py-2 rounded-pill"
                   >
-                     <div class="upload-text">
-                        <span class="text-5A3051 fs-5"
-                           >Drag and drop files to upload</span
-                        >
-                        <span class="text-E9A6A6 fs-5"> or </span>
+                     Yes
+                  </button>
+               </div>
+               <div class="fs-xs-5 text-center text-sm-start">
+                  <h5 class="text-uppercase text-A6A6A6 py-2 fs-xs-5">
+                     Tech pack
+                  </h5>
+                  <button
+                     class="border-0 bg-DB513E text-white px-4 px-sm-5 py-2 rounded-pill"
+                  >
+                     No
+                  </button>
+               </div>
+               <div class="fs-xs-5 text-center text-sm-start">
+                  <h5 class="text-uppercase text-A6A6A6 py-2 fs-xs-5">
+                     sewing patterns
+                  </h5>
+                  <button
+                     class="border-0 bg-DB513E text-white px-4 px-sm-5 py-2 rounded-pill"
+                  >
+                     No
+                  </button>
+               </div>
+            </div>
+
+            <div class="row pt-5">
+               <h5 class="text-uppercase fs-5 text-A6A6A6 py-5">
+                  project description
+               </h5>
+               <div class="text-capitalize fs-5 text-5A3051 px-4">
+                  <h5>have multiple product categories?</h5>
+                  <h5>publish this form first, then create a new one.</h5>
+               </div>
+            </div>
+         </div>
+
+         <div class="container-fluid py-5">
+            <div class="row">
+               <h2 class="text-uppercase fs-1 text-5A3051 fw-bold pb-4">
+                  needed services
+               </h2>
+               <div class="row gap-4 gap-md-0 gap-lg-4">
+                  <div class="col-10 col-sm-10 col-md-6 col-lg-4">
+                     <div
+                        class="row align-items-center border border-2 border-EAD8E6 py-3 redious-md read-full-post ms-2 ms-md-0"
+                     >
+                        <div class="col-2">
+                           <hr />
+                        </div>
+                        <div class="col-10">
+                           <h5 class="fs-4 text-5A3051">Mass Production</h5>
+                        </div>
                      </div>
-                     <div class="fileUpload fs-5 bg-E9A6A6 text-white">
-                        <input type="file" class="upload" />
-                        <span>Browse</span>
+                  </div>
+                  <div class="col-10 col-sm-10 col-md-6 col-lg-4">
+                     <div
+                        class="row align-items-center border border-2 border-EAD8E6 py-3 redious-md read-full-post ms-2 ms-md-0"
+                     >
+                        <div class="col-2">
+                           <hr />
+                        </div>
+                        <div class="col-10">
+                           <h5 class="fs-4 text-5A3051">Mass Production</h5>
+                        </div>
                      </div>
                   </div>
                </div>
+            </div>
+         </div>
 
-               <div class="row justify-content-between mt-5">
-                  <div class="col-md-7">
-                     <p class="text-A6A6A6 fs-4">
-                        Stuck filling this out? Assist me/help me >
-                     </p>
-                  </div>
-                  <div class="col-md-5">
-                     <button
-                        class="btn-common btn quote-btn bg-5A3051 text-white"
-                     >
-                        Publish and get quotes
-                     </button>
-                     <p class="text-A6A6A6 fs-5 mt-4">
-                        have multiple product categories? publish this form
-                        first, then create a new one.
-                     </p>
-                  </div>
+         <div class="container-fluid py-5">
+            <div class="row">
+               <h2 class="text-uppercase fs-1 text-5A3051 fw-bold pb-4">
+                  Attachments
+               </h2>
+               <div class="d-flex align-items-center gap-4">
+                  <img
+                     src="./../assets/images/attacment-img.png"
+                     alt="attachments-img"
+                  />
+                  <span class="text-A6A6A6">Img1234_31242....jpg</span>
+                  <i class="fas fa-cloud-download-alt text-5A3051"></i>
                </div>
+            </div>
+         </div>
 
-               <!-- continue with advance enquiry -->
-               <div class="advance-enquiry mt-5">
-                  <h1 class="text-uppercase text-5A3051 text-center">
-                     continue with advance enquiry
-                  </h1>
-                  <p class="text-A6A6A6 text-lg text-center mb-5 mt-3">
-                     Add more information to the project to get quotes faster
-                  </p>
-
-                  <div class="row px-5">
-                     <div class="col-10 col-md-6 px-md-5">
-                        <input
-                           type="text"
-                           placeholder="PLANNED MAX. MAKE PRICE"
-                           name=""
-                           id=""
-                        />
-                     </div>
-
-                     <div class="col-10 col-md-6 mt-4 mt-md-0 px-md-5">
-                        <input
-                           type="text"
-                           name=""
-                           id=""
-                           placeholder="PER ITEM PLANNED SELL PRICE"
-                        />
-                     </div>
-                  </div>
-                  <div class="text-center mt-5 pt-4 mb-5">
-                     <button
-                        class="btn btn-common bg-E9A6A6 text-white btn-publish-advance text-center"
-                     >
-                        Publish advanced and get quotes
-                     </button>
-                  </div>
+         <div class="container-fluid py-5">
+            <div class="row">
+               <div class="d-grid col-12 col-sm-11 col-md-8 col-lg-6 mx-auto">
+                  <button
+                     class="text-capitalize btn bg-E9A6A6 redious-md fs-4 text-white py-3"
+                  >
+                     Search manufacturer
+                  </button>
+               </div>
+            </div>
+            <div class="row text-center pt-2 pt-sm-4">
+               <div
+                  class="d-grid col-10 col-sm-11 col-md-8 col-lg-5 mx-auto text-A6A6A6"
+               >
+                  <h6>
+                     Download project and all attachments as .zip archive <br />
+                     Project:
+                     <span class="text-5A3051 fw-bold">
+                        123412-23-1421-123-41241212
+                     </span>
+                  </h6>
                </div>
             </div>
          </div>
@@ -496,7 +541,7 @@
                      <a href="#">
                         <img
                            class="img-fluid"
-                           src="./assets/images/android.png"
+                           src="./../assets/images/android.png"
                            alt="androind_app"
                         />
                      </a>
@@ -505,7 +550,7 @@
                      <a href="#">
                         <img
                            class="img-fluid"
-                           src="./assets/images/ios.png"
+                           src="./../assets/images/ios.png"
                            alt="ios_app"
                         />
                      </a>
