@@ -1853,3 +1853,19 @@ td img {
 .border-EAD8E6 {
    border-color: #ead8e6 !important;
 }
+
+/* ########## lario video start ########### */
+.lario-video {
+   height: 270px;
+    /* background-size: cover; */
+    /* position: relative; */
+    /* width: 100%; */
+    /* z-index: 0; */
+    /* overflow: hidden; */
+}
+
+.lario-video video {
+   width: 100%;
+}
+
+/* ########## lario video end ########### */
