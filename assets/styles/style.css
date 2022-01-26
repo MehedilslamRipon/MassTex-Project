@@ -1868,4 +1868,19 @@ td img {
    width: 100%;
 }
 
+.counter-text {
+   top: 50%;
+   right: 0;
+}
+
+@media only screen and (max-width: 576px){
+   .counter-text h1 {
+      font-size: 35px;
+   }
+
+   .counter-text {
+      top: 27%;
+   }
+}
+
 /* ########## lario video end ########### */
