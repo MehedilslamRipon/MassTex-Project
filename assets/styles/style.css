@@ -1881,8 +1881,12 @@ td img {
       font-size: 35px;
    }
 
-   .counter-text {
+   /* .counter-text {
       top: 27%;
+   } */
+
+   .lario-video {
+      height: auto;
    }
 }
 
