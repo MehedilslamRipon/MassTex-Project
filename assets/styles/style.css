@@ -229,6 +229,9 @@ h6 {
 .bg-EDE3EB {
    background: #ede3eb;
 }
+.bg-88B0B2 {
+   background: #88b0b2;
+}
 
 /* font scheme */
 /* custom font size */
@@ -769,7 +772,7 @@ h6 {
 }
 
 .dash-menu a:hover {
-   color: #E9A6A6;
+   color: #e9a6a6;
    cursor: pointer;
 }
 
@@ -1857,11 +1860,11 @@ td img {
 /* ########## lario video start ########### */
 .lario-video {
    height: 270px;
-    /* background-size: cover; */
-    /* position: relative; */
-    /* width: 100%; */
-    /* z-index: 0; */
-    /* overflow: hidden; */
+   /* background-size: cover; */
+   /* position: relative; */
+   /* width: 100%; */
+   /* z-index: 0; */
+   /* overflow: hidden; */
 }
 
 .lario-video video {
@@ -1873,7 +1876,7 @@ td img {
    right: 0;
 }
 
-@media only screen and (max-width: 576px){
+@media only screen and (max-width: 576px) {
    .counter-text h1 {
       font-size: 35px;
    }
@@ -1881,6 +1884,12 @@ td img {
    .counter-text {
       top: 27%;
    }
+}
+
+.lario-bottom-img img {
+   /* height: 150px; */
+   width: 80px;
+   margin: 10px;
 }
 
 /* ########## lario video end ########### */
