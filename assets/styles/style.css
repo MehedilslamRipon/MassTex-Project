@@ -219,7 +219,9 @@ h6 {
 .bg-FF9F43 {
    background: #ff9f43;
 }
-
+.bg-F5F5F5 {
+   background: #F5F5F5;
+}
 .bg-FECA57 {
    background: #feca57;
 }
@@ -1900,3 +1902,13 @@ td img {
 }
 
 /* ########## lario video end ########### */
+
+
+/* ########## merchant start ########### */
+
+.merchant-margin {
+   margin-bottom: 110px !important;
+}
+
+/* ########## merchant end ########### */
+
