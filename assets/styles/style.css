@@ -132,15 +132,12 @@ h6 {
 .bg-1F1D36 {
    background: #1f1d36;
 }
-
 .bg-F9E9E9 {
    background: #f9e9e9;
 }
-
 .bg-FAF5F9 {
    background: #faf5f9;
 }
-
 .bg-BBBBBB {
    background: #bbbbbb;
 }
@@ -220,7 +217,7 @@ h6 {
    background: #ff9f43;
 }
 .bg-F5F5F5 {
-   background: #F5F5F5;
+   background: #f5f5f5;
 }
 .bg-FECA57 {
    background: #feca57;
@@ -1903,12 +1900,16 @@ td img {
 
 /* ########## lario video end ########### */
 
-
 /* ########## merchant start ########### */
 
 .merchant-margin {
    margin-bottom: 110px !important;
 }
 
-/* ########## merchant end ########### */
+.merchant-mini {
+   top: -30px;
+   right: 35px;
+   width: 60px;
+}
 
+/* ########## merchant end ########### */
